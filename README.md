@@ -31,7 +31,7 @@ java programming at J/Qspider Noida.
 27. Write a java program to print each digit of number one by one.
 28. Write a java program to print all even digits.
 29. Write a java program to print all odd digits.
-30. Write a java program to print all digit
+30. Write a java program to print all digits
 31. Write a java Program to count number’s digits present in the number.
 32. Write a java Program to count even digits present in the given number.
 33. Write a java Program to count odd digits present in the given number.
@@ -45,7 +45,7 @@ java programming at J/Qspider Noida.
 41. Write a java Program to calculate the sum of factorial of each digit of a number.
 42. Write a java Program to check whether the number is a Strong number or not.
 43. Write a java program to reverse digits or numbers.
-44. Write a java Program to find the difference between reverse and original digits/number if the number is not the same original and reverse.
+44. Write a java Program to find the difference between reverse and original digits/number if the number is different from original and reverse.
 45. Write a java Program to check if the reverse and original number is divisible or not, if Divisible then print.
 46. Write a java program to check the sum of reverse and original number/digits is even or odd, if the number is odd then print all odd digits,but number is even then print all the even digits.
 47. Write a java Program to check whether the number is palindrome or not.
@@ -88,7 +88,7 @@ java programming at J/Qspider Noida.
 84. Design a method which will return if the product of array is even
 85. Design a method that accepts string arrays will print the size of every string element.
 86. Design a method which will accept a string array and will print and count all the even length string elements.
-87. Design a method which will accept a string array and will return the string with biggest size
+87. Design a method which will accept a string array and will return the string with the biggest size
 88. Design a method to check if an array is strictly increasing or not and will return.
 89. Design a method to remove an element from a particular position of an array.
 90. Design a method which will insert and at array at any given position.

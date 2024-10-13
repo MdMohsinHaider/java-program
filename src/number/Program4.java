@@ -1,7 +1,11 @@
 package src.number;
 
 import lib.HelpCode;
-
+/*
+*
+* Take Input a Random Number from the user and print the first three-digit number
+*
+* */
 public class Program4 {
     public static void main(String[] args) {
         // main method
@@ -11,7 +15,7 @@ public class Program4 {
 
     public static String firstThreeDigit(int num){
         String temp ="";
-        while (num>99){
+        while (num>100){
             temp=""+num;
             num/=10;
         }

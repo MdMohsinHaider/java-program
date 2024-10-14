@@ -17,7 +17,7 @@ public class Program4 {
         String temp ="";
         while (num>100){
             temp=""+num;
-            num/=10;
+            num/=10; 
         }
         return temp;
      }

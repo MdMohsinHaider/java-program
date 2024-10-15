@@ -1,6 +1,6 @@
 package src.arrays;
 
-public class Program2 {
+public class Program02 {
     public static void main(String[] args) {
         int[] a = {12,8,5,12,5,12,10,12,12};
         printFrequency(a);

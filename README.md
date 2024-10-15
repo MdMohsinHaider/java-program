@@ -101,110 +101,120 @@
 25. WAJP to take three user inputs and print HCF of the three numbers.
 26. WAJP to take three user inputs and print LCM of the three numbers.
 # Arrays
-1. Print all the even elements array.
-2. Print all the even indexed of elements
-3. Calculate a print sum of all elements of array
-4. Calculate and print the sum of all the numbers of the array which is divisible by 4.
-5. Calculate and print the biggest element of an array
-6. Design a method which will return the biggest and smallest difference.
-7. Design a method which will return true if it contains only even numbers
-8. Design a method which will return if the product of array is even
-9. Design a method that accepts string arrays will print the size of every string element.
-10. Design a method which will accept a string array and will print and count all the even length string elements.
-11. Design a method which will accept a string array and will return the string with the biggest size
-12. Design a method to check if an array is strictly increasing or not and will return.
-13. Design a method to remove an element from a particular position of an array.
-14. Design a method which will insert and at array at any given position.
-15. For a given array which contains positive number (0 < = arr[i] < = 100). print the frequency of each array element.
-16. print events only one in the array.
-17. Print all the elements that have appeared more than ones.
-18. Print All the elements exactly once
-19. print elements appeared evens types in an array.
-20. Print all the array elements which appear odd numbers of times.
-21. Print the elements that have appeared for the maximum times in an array.
-22. Print the index and its elements, which are non-repeating elements.
-23. WAJP to print the even index elements of the array.
-24. WAJP to print the even elements of the array.
-25. WAJP to count all the even numbers of the array.
-26. WAJP to print and count all the three digit numbers of the array.
-27. WAJP to print sum and average of all the elements of array.
-28. WAJP to print the Biggest element, Smallest element and their difference in the array.
-29. For the given array of Strings, print and count all the Strings which has even number of characters.
-30. For the given array of Strings, print the largest string and smallest string.
-31. WAJP to print each element of the array in reverse order.
-32. WAJP to print alternate element of the array from end.
-33. WAJP to  swap two index values of the array.
-34. WAJP to insert an element at certain position of the array.
-35. WAJP to remove an element from the certain position of the array.
-36. WAJP to check no is even or odd without using if else/Conditional Operator statement .
-37. WAJP to print and count all the prime numbers of the array.
-38. WAJP to rotate each element of an array by one position in right side.
-39. WAJP to rotate all the elements of array k position to its right.
+1. Print all the elements in sequence array.
+2. Print all the elements in a reverse order array.
+3. Print all the even elements array.
+4. Print all the even indexed of elements
+5. Calculate a print sum of all elements of array
+6. Calculate and print the sum of all the numbers of the array which is divisible by 4.
+7. Calculate and print the biggest element of an array
+8. Design a method which will return the biggest and smallest difference.
+9. Design a method which will return true if it contains only even numbers
+10. Design a method which will return if the product of array is even
+11. Design a method that accepts string arrays will print the size of every string element.
+12. Design a method which will accept a string array and will print and count all the even length string elements.
+13. Design a method which will accept a string array and will return the string with the biggest size
+14. Design a method to check if an array is strictly increasing or not and will return.
+15. Design a method to remove an element from a particular position of an array.
+16. Design a method which will insert and at array at any given position.
+17. For a given array which contains positive number (0 < = arr[i] < = 100). print the frequency of each array element.
+18. print events only one in the array.
+19. Print all the elements that have appeared more than ones.
+20. Print All the elements exactly once
+21. print elements appeared evens types in an array.
+22. Print all the array elements which appear odd numbers of times.
+23. Print the elements that have appeared for the maximum times in an array.
+24. Print the index and its elements, which are non-repeating elements.
+25. WAJP to print the even index elements of the array.
+26. WAJP to print the even elements of the array.
+27. WAJP to count all the even numbers of the array.
+28. WAJP to print and count all the three digit numbers of the array.
+29. WAJP to print sum and average of all the elements of array.
+30. WAJP to print the Biggest element, Smallest element and their difference in the array.
+31. For the given array of Strings, print and count all the Strings which has even number of characters.
+32. For the given array of Strings, print the largest string and smallest string.
+33. WAJP to print each element of the array in reverse order.
+34. WAJP to print alternate element of the array from end.
+35. WAJP to  swap two index values of the array.
+36. WAJP to insert an element at certain position of the array.
+37. WAJP to remove an element from the certain position of the array.
+38. WAJP to check no is even or odd without using if else/Conditional Operator statement .
+39. WAJP to print and count all the prime numbers of the array.
+40. WAJP to rotate each element of an array by one position in right side.
+41. WAJP to rotate all the elements of array k position to its right.
     `` array[] = {1,2,3,4,5,6,7} ,
     k=2
     Output: {6 7 1 2 3 4 5} ``
-40. WAJP to rotate each element of an array by one position in left side.
+42. WAJP to rotate each element of an array by one position in left side.
     119. `WAJP to rotate all the elements of array k position to its left.
      array[] = {1, 2, 3, 4, 5, 6, 7}, 
     k = 2
     Output: {3 4 5 6 7 1 2}
     `
-41. https://leetcode.com/problems/rotate-array/description/
-42. https://leetcode.com/problems/move-zeroes/description/
-43. `WAJP to move all zeroes of an array to the end.
+43. https://leetcode.com/problems/rotate-array/description/
+44. https://leetcode.com/problems/move-zeroes/description/
+45. `WAJP to move all zeroes of an array to the end.
 i/p: [7, 0, 2, 6, 0, 4]
 o/p: [7, 2, 6, 4, 0, 0]
 `
-44. `WAJP the shift all 0’s to left and all 1’s to the right(Without Sorting).
+46. `WAJP the shift all 0’s to left and all 1’s to the right(Without Sorting).
 i/p: 	[0, 1, 1, 0, 0, 1, 0, 0]
 o/p: 	[0, 0, 0, 0, 0, 1, 1, 1]`
 
-45. `For the given array of 0’s, 1’s and 2’s
+47. `For the given array of 0’s, 1’s and 2’s
 Sort the elements(Without Sorting).
 i/p: 	[0, 2, 0, 1, 2, 1, 0, 2]
 o/p: 	[0, 0, 0, 1, 1, 2, 2, 2]`
-46. https://leetcode.com/problems/sort-colors/description/
-47. WAJP to print the frequency of each element of the array if all given elements are in range from 0 to 1000.
-48. WAJP to print the frequency of each element of the array when elements provided are in any range.
-49. WAJP to print each element of the array which has appeared only once in the array.
-50. WAJP to print each element of the array which has appeared more than once/which has duplicate values in the array.
-51. WAJP to print all the elements of array whose frequency are odd.
-52. WAJP to print the element and its frequency which has appeared for the maximum time in the array.
-53. WAJP to print the index and the value of the first non-repeating element in an array.
-54. WAJP to remove the duplicate values from the array and store all unique elements in a new Array.
-55. WAJP to print true if all the elements in the array are unique.
-56. WAJP to print Biggest and second biggest element of the array.
-57. WAJP to print Smallest and second Smallest element of the array.
-58. WAJP to find the maximum product of two integers in a given array of positive integers.
-59. WAJP to sort the array elements in ascending order.
-60. WAJP to sort the array elements in descending order.
-61. `WAJP to print first half of the array elements in ascending order and second half of the elements in descending order.
+48. https://leetcode.com/problems/sort-colors/description/
+49. WAJP to print the frequency of each element of the array if all given elements are in range from 0 to 1000.
+50. WAJP to print the frequency of each element of the array when elements provided are in any range.
+51. WAJP to print each element of the array which has appeared only once in the array.
+52. WAJP to print each element of the array which has appeared more than once/which has duplicate values in the array.
+53. WAJP to print all the elements of array whose frequency are odd.
+54. WAJP to print the element and its frequency which has appeared for the maximum time in the array.
+55. WAJP to print the index and the value of the first non-repeating element in an array.
+56. WAJP to remove the duplicate values from the array and store all unique elements in a new Array.
+57. WAJP to print true if all the elements in the array are unique.
+58. WAJP to print Biggest and second biggest element of the array.
+59. WAJP to print Smallest and second Smallest element of the array.
+60. WAJP to find the maximum product of two integers in a given array of positive integers.
+61. WAJP to sort the array elements in ascending order.
+62. WAJP to sort the array elements in descending order.
+63. `WAJP to print first half of the array elements in ascending order and second half of the elements in descending order.
 i/p: 	[25, 34, 12, 45, 23, 28]
 o/p: 	[12, 25, 34, 45, 28, 23]`
-62. `WAJP to print first half of the array in ascending order and second half in descending order.
+64. `WAJP to print first half of the array in ascending order and second half in descending order.
 i/p: 	[25, 34, 12, 45, 23, 28]
 o/p: 	[12, 23, 25, 45, 34, 28]`
-63. `WAJP to print true if elements of an array are same when it is read from front or from back otherwise print false.
+65. `WAJP to print true if elements of an array are same when it is read from front or from back otherwise print false.
 i/p: [12, 23, 15, 15, 23, 12]
 o/p: true
 `
-64. `WAJP find missing element
+66. `WAJP find missing element
 i/p: [7, 4,3, 5, 1, 6]
 o/p: 2
 `
-65. `WAJP to check if an array is strictly increasing.
+67. `WAJP to check if an array is strictly increasing.
 i/p: [2, 3, 7, 8, 9]
 o/p: Array is strictly increasing
 `
-66. WAJP to check whether a given array is in sorted order or not.
-67. https://www.hackerrank.com/challenges/migratory-birds/problem
-68. mplement binary search algorithm.
-69. https://leetcode.com/problems/first-missing-positive/description/
-70. https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
-71. https://leetcode.com/problems/count-primes/description/
-72. https://leetcode.com/problems/third-maximum-number/description/
-73. 
-
+68. WAJP to check whether a given array is in sorted order or not.
+69. https://www.hackerrank.com/challenges/migratory-birds/problem
+70. implement binary search algorithm.
+71. https://leetcode.com/problems/first-missing-positive/description/
+72. https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
+73. https://leetcode.com/problems/count-primes/description/
+74. https://leetcode.com/problems/third-maximum-number/description/
+75. Design a method to rotate one time to the right side.
+    `int[]a = {12,8,10,12,18,15}
+      int[]a = {12,8,10,12,18,15}`
+76. Design a method rotate elements k times in right side
+``int[]a = {12,8,10,12,18,15}
+      int[]a = {12,18,15,12,18,15}``
+77. Design a method to rotate all the elements one time left side.
+`int[]a = {12,8,10,12,18,15}
+int[]a = {8,10,12,15,}`
+78. Design a method k time to left side.
 
 
 

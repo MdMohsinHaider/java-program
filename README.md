@@ -51,21 +51,22 @@
 48. Write a java program to check the sum of reverse and original number/digits is even or odd, if the number is odd then print all odd digits,but number is even then print all the even digits.
 49. Write a java Program to check whether the number is palindrome or not.
 50. Write a java program to print factors of the number if the number is palindrome.
-51. Take String input from the user and print all characters one by one From Starting.
-52. Take String input from the user and print all characters one by one From Ends.
-53. Take String input from the user and Get the Length of a String.
-54. Take Two String input from the user and join Two Java Strings to each other.
-55. Take two String user input and Compare Two Strings Character and find and print  both duplicate or unique characters From two String.
-56. Take input String From User and convert all the characters to lowercase.
-57. Take user input String and print the String if String is palindrome.
-58. Take String and print voles and total number of Voles counts
-59. Take String and print consonants and total number of Consonants counts.
-60. Take String random symbol Input from user and return all alphabets.
-61. Take user input and print whether the number is a perfect number or not.
-62. Take user input and print the factorial of the given number.
-63. Take user input and print the Sum of all factorials.
-64. Take user input and print a table with that user n number.
-65. Take user input and print a table from the user range and that number.
+51. Take user input and print whether the number is a perfect number or not.
+52. Take user input and print the factorial of the given number.
+53. Take user input and print the Sum of all factorials.
+54. Take user input and print a table with that user n number.
+55. Take user input and print a table from the user range and that number.
+#  String and Charter
+1. Take String input from the user and print all character one by one From Starting.
+2. Take String input from the user and print all character one by one From Ends.
+3. Take String input from the user and Get the Length of a String.
+4. Take Two String input from the user and join Two Java Strings to each other.
+5. Take two String user input and Compare Two Strings Character and find and print  both duplicate or unique characters From two String.
+6. Take input String From User and convert all the characters to lowercase.
+7. Take user input String and print the String if String is palindrome.
+8. Take String and print voles and total number of Voles counts
+9. Take String and print consonants and total number of Consonants counts.
+10. Take String random symbol Input from user and return all alphabets.
 # Pattern
 1. Print the pattern different types triangle.
 2. Print the pattern different types Square.
@@ -221,7 +222,9 @@ o/p: Array is strictly increasing
 80. Design a method to print a smallest and second-smallest element of the array. `5,5,8,7,6,9,5`
 81. Write a java Program to move all zeroes of an array to the end. `7,0,2,6,0,4` and output `7,2,6,4,0,0`
 82. 
-
+#  Switch case:
+1. write a java program and take user input to calculator to performed calculation.
+2. write a java program and take an input option from user and perform a user option. 
 # Iterator
 1. write a java program to print even number only from a collection.
 2. write a java program to print odd number only from a collection

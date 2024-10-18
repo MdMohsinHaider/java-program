@@ -206,15 +206,29 @@ o/p: Array is strictly increasing
 73. https://leetcode.com/problems/count-primes/description/
 74. https://leetcode.com/problems/third-maximum-number/description/
 75. Design a method to rotate one time to the right side.
-    `int[]a = {12,8,10,12,18,15}
-      int[]a = {12,8,10,12,18,15}`
+    `int[]a = {1 ,3 ,5 ,7 ,9, 2, 4, 6, 8, 0}
+     int[]a = {0, 1, 3, 5 ,7, 9, 2, 4, 6, 8}`
 76. Design a method rotate elements k times in right side
-``int[]a = {12,8,10,12,18,15}
-      int[]a = {12,18,15,12,18,15}``
+``int[]a = {1 ,3 ,5 ,7 ,9, ,2, ,4, ,6, ,8, 0}
+      int[]a = {8, 0 ,1 ,3 ,5 ,7 ,9 ,2 ,4, 6}``
 77. Design a method to rotate all the elements one time left side.
-`int[]a = {12,8,10,12,18,15}
-int[]a = {8,10,12,15,}`
+`    int[]a = {1 ,3 ,5 ,7 ,9, 2, 4, 6, 8, 0}
+     int[]a = {0, 1, 3, 5 ,7, 9, 2, 4, 6, 8}`
 78. Design a method k time to left side.
+    `int[]a = {1 ,3 ,5 ,7 ,9, 2, 4, 6, 8, 0}
+     int[]a = {0, 1, 3, 5 ,7, 9, 2, 4, 6, 8}`
+79. Design a method to print the biggest and second-biggest element. `17,17,15,14,10,16,17` and `16, 16,15,14,17,16`
+80. Design a method to print a smallest and second-smallest element of the array. `5,5,8,7,6,9,5`
+81. Write a java Program to move all zeroes of an array to the end. `7,0,2,6,0,4` and output `7,2,6,4,0,0`
+82. 
+
+# Iterator
+1. write a java program to print even number only from a collection.
+2. write a java program to print odd number only from a collection
+3. write a java program to print Prime number only from a collection.
+4. write a java program to print non=prime number only from a collection.
+5. write a java program to check the number is palindrome or not from a collection.
+6. write a java program to check the number is strong number or not from a collection
 
 
 

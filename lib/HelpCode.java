@@ -4,31 +4,36 @@ import java.util.Scanner;
 
 public class HelpCode {
     //    =======================================input method===========================================================
+   int count=0;
     // 1. user integer input
     public int inputInt(){
+        count++;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a integer Number : ");
+        System.out.print(count+". Enter a integer Number : ");
         return sc.nextInt();
     }
 
     // 2. user double input
     public double inputDouble(){
+        count++;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a double Number : ");
+        System.out.print(count+". Enter a double Number : ");
         return sc.nextDouble();
     }
 
     // 3. user char input
     public char inputChar(){
+        count++;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a Char  : ");
+        System.out.print(count+". Enter a Char  : ");
         return sc.next().charAt(0);
     }
 
     // 4. user String input
     public String inputString(){
+        count++;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a String  : ");
+        System.out.print(count+". Enter a String  : ");
         return sc.nextLine();
     }
 //==============================================Calculation=================================================================

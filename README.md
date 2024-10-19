@@ -88,14 +88,14 @@
 11. Write a java program to Check if the number is palindrome or not using recursion.
 12. WAJP to generate numbers from 1 to 10 by using recursion.
 13. WAJP to generate table of a number by using recursion.
-14. WAJP to print sum of numbers from 1 to 100 by using recursion.
-15. WAJP to print sum of squares of numbers from 1 to 100 by using recursion.
+14. WAJP to print a sum of numbers from 1 to 100 by using recursion.
+15. WAJP to print a sum of squares of numbers from 1 to 100 by using recursion.
 16. WAJP to calculate factorial by using recursion.
 17. WAJP to calculate power by using recursion.
 18. WAJP to get digit count of a number by using recursion.
-19. WAJP to get digit sum of a number by using recursion.
+19. WAJP to get a digit sum of a number by using recursion.
 20. WAJP to reverse a number by using recursion.
-21. WAJP to check  a palindrome number by using recursion.
+21. WAJP to check a palindrome number by using recursion.
 22. WAJP to take Four user inputs and print biggest of that.
 23. WAJP to calculate nth term of Fibonacci series by using recursion.
 24. WAJP to generate n term of Fibonacci series by using recursion.
@@ -129,17 +129,17 @@
 25. WAJP to print the even index elements of the array.
 26. WAJP to print the even elements of the array.
 27. WAJP to count all the even numbers of the array.
-28. WAJP to print and count all the three digit numbers of the array.
+28. WAJP to print and count all the three-digit numbers of the array.
 29. WAJP to print sum and average of all the elements of array.
 30. WAJP to print the Biggest element, Smallest element and their difference in the array.
 31. For the given array of Strings, print and count all the Strings which has even number of characters.
-32. For the given array of Strings, print the largest string and smallest string.
+32. For the given array of Strings, print the largest string and the smallest string.
 33. WAJP to print each element of the array in reverse order.
-34. WAJP to print alternate element of the array from end.
+34. WAJP to print an alternate element of the array from end.
 35. WAJP to  swap two index values of the array.
 36. WAJP to insert an element at certain position of the array.
 37. WAJP to remove an element from the certain position of the array.
-38. WAJP to check no is even or odd without using if else/Conditional Operator statement .
+38. WAJP to check no is even or odd without using if else/Conditional Operator statement.
 39. WAJP to print and count all the prime numbers of the array.
 40. WAJP to rotate each element of an array by one position in right side.
 41. WAJP to rotate all the elements of array k position to its right.
@@ -232,7 +232,8 @@ o/p: Array is strictly increasing
 4. write a java program to print non=prime number only from a collection.
 5. write a java program to print number is palindrome from a collection.
 6. write a java program to print number is not palindrome from a collection.
-7. write a java program to check the number is strong number or not from a collection
+7. write a java program to print number is a strong number from a collection.
+8. write a java program to print number is not a strong number from a collection.
 
 
 

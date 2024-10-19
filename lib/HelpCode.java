@@ -65,6 +65,27 @@ public class HelpCode {
         return result;
     }
 
+    // factor
+    public static int factorial(int n) {
+        int fact = 1;
+        for (int i = 1; i <= n; i++) {
+            fact *= i;
+        }
+        return fact;
+    }
+
+    // is a Strong number
+    public static boolean isStrongNumber(int number) {
+        int originalNumber = number;
+        int sum = 0;
+        while (number > 0) {
+            int digit = number % 10;
+            sum += factorial(digit);  // Add factorial of the digit to sum
+            number /= 10;
+        }
+        return sum == originalNumber;  // Compare a sum with the original number
+    }
+
     // check number is prime or not
     public static boolean isPrime(int x) {
         if (x <= 1) return false;

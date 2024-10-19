@@ -225,7 +225,7 @@ o/p: Array is strictly increasing
 #  Switch case:
 1. write a java program and take user input to calculator to performed calculation.
 2. write a java program and take an input option from user and perform a user option. 
-# Iterator
+#  Iterator
 1. write a java program to print even number only from a collection.
 2. write a java program to print odd number only from a collection
 3. write a java program to print Prime number only from a collection.

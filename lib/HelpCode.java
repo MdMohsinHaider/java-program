@@ -91,7 +91,7 @@ public class HelpCode {
         return sum == originalNumber;  // Compare a sum with the original number
     }
 
-    // check number is prime or not
+    // prime number
     public static boolean isPrime(int x) {
         if (x <= 1) return false;
         for (int i = 2; i <= Math.sqrt(x); i++)

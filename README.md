@@ -230,8 +230,9 @@ o/p: Array is strictly increasing
 2. write a java program to print odd number only from a collection
 3. write a java program to print Prime number only from a collection.
 4. write a java program to print non=prime number only from a collection.
-5. write a java program to check the number is palindrome or not from a collection.
-6. write a java program to check the number is strong number or not from a collection
+5. write a java program to print number is palindrome from a collection.
+6. write a java program to print number is not palindrome from a collection.
+7. write a java program to check the number is strong number or not from a collection
 
 
 

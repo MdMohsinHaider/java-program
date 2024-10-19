@@ -73,4 +73,20 @@ public class HelpCode {
         return true;
     }
 
+    public static boolean isPalindrome(int number) {
+        int originalNumber = number; // Store the original number
+        int reversedNumber = 0;
+        int remainder;
+
+        // Reverse the number
+        while (number != 0) {
+            remainder = number % 10;
+            reversedNumber = reversedNumber * 10 + remainder;
+            number /= 10;
+        }
+
+        // Check if the original number is the same as the reversed number
+        return originalNumber == reversedNumber;
+    }
+
 }

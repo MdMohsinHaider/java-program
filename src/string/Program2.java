@@ -1,23 +1,16 @@
 package src.string;
 
-/*
-*
-*       Take String input from the user and print character one by one From Starting.
-*
-* */
-
-
 import java.util.Scanner;
 
-public class Program1 {
+public class Program2 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter String :  ");
-        getString(sc.nextLine());
+        getString(scanner.nextLine());
     }
 
     public static void getString(String s){
-        for (int i = 0; i <s.length() ; i++) {
+        for (int i = s.length() -1 ; i >= 0 ; i--) {
             System.out.print(s.charAt(i)+"  ");
         }
     }

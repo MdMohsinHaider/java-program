@@ -1,5 +1,6 @@
 # Java-programing Questions
-### java programming at J/Q/Spider Noida.
+### java programming at J/Q/Spider Noida B-4, Block B, Sector 3, Noida, Uttar Pradesh 201301
+### Trainer : `Shambhu Sir`
 # 1. Number
 1. Take input a random number from the user and check the number is Even or Odd number and Print.
 2. Take Input a Random Number from the user and print the last three-digit number.

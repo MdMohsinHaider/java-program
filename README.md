@@ -218,7 +218,8 @@
 #  6. Switch case:
 1. write a java program and take user input to calculator to performed calculation.
 2. write a java program and take an input option from user and perform a user option. 
-#  7. Iterator
+
+#  7. Iterator (Collection Framework):
 1. write a java program to print even number only from a collection.
 2. write a java program to print odd number only from a collection
 3. write a java program to print Prime number only from a collection.
@@ -227,6 +228,7 @@
 6. write a java program to print number is not palindrome from a collection.
 7. write a java program to print number is a strong number from a collection.
 8. write a java program to print number is not a strong number from a collection.
+
 ## 8. Iterator Loop:
 1. Design a method which will accept a collection and will remove all string type elements from the collection.
 2. Design a method which will accept a collection and will remove all elements from the collection are not String.
@@ -237,6 +239,7 @@
 7. Design a method which will print the sum of all integer numbers from a collection.
 8. Design a method which will print the sum of all the even integer numbers from the collection.
 9. Design a method which will print the biggest and Smallest integer number from a collection.
+
 
 
 

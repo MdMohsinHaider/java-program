@@ -230,15 +230,16 @@
 8. write a java program to print number is not a strong number from a collection.
 
 ## 8. Iterator Loop:
-1. Design a method which will accept a collection and will remove all string type elements from the collection.
-2. Design a method which will accept a collection and will remove all elements from the collection are not String.
-3. Design a method which will remove all the integers from a collection.
-4. Design a method which will remove all the elements from a collection which are not an integer.
-5. Design a method which will count the integer elements available in a collection.
-6. Design a method which will count even integer numbers from a collections.
-7. Design a method which will print the sum of all integer numbers from a collection.
-8. Design a method which will print the sum of all the even integer numbers from the collection.
-9. Design a method which will print the biggest and Smallest integer number from a collection.
+1. Write a java Program to print all the collection with the help of `For each Loop`.
+2. Design a method which will accept a collection and will remove all string type elements from the collection.
+3. Design a method which will accept a collection and will remove all elements from the collection are not String.
+4. Design a method which will remove all the integers from a collection.
+5. Design a method which will remove all the elements from a collection which are not an integer.
+6. Design a method which will count the integer elements available in a collection.
+7. Design a method which will count even integer numbers from a collections.
+8. Design a method which will print the sum of all integer numbers from a collection.
+9. Design a method which will print the sum of all the even integer numbers from the collection.
+10. Design a method which will print the biggest and Smallest integer number from a collection.
 
 
 

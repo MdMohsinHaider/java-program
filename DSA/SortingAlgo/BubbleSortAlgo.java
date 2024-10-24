@@ -4,10 +4,11 @@ public class BubbleSortAlgo {
     public static void main(String[] args) {
         int[] array1 ={30,40,70,50,90,100};
         int[] array2 ={30,40,50,70,90,100};
-        getSort(array1);
+
+        getSort(array2);
 
         // Print Array elements.
-        for (int p : array1){
+        for (int p : array2){
             System.out.println(p);
         }
     }

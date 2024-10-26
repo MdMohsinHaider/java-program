@@ -1,4 +1,4 @@
-import lib.HelpCode;
+import com.jspider.lib.HelpCode;
 
 public class Main {
     public static void main(String[] args) {

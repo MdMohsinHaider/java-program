@@ -1,5 +1,5 @@
 # Java-programing Questions
-### java programming at J/Q/Spider Noida B-4, Block B, Sector 3, Noida, Uttar Pradesh 201301
+### Java programming at J/Q/Spider Noida B-4, Block B, Sector 3, Noida, Uttar Pradesh 201301
 ### Trainer : `Shambhu Sir`
 
 

@@ -30,34 +30,42 @@
 26. Take user input print factorial of number.
 27. Take two input numbers from the user and calculate the power of the number.
 28. Take user input and generate many terms in the fibonacci series.
-29. Write a java program to print each digit of number one by one.
-30. Write a java program to print all even digits.
-31. Write a java program to print all odd digits.
-32. Write a java program to print all digits
-33. Write a java Program to count number’s digits present in the number.
-34. Write a java Program to count even digits present in the given number.
-35. Write a java Program to count odd digits present in the given number.
-36. Write a java program to print the biggest digits of the number.
-37. Write a java program to print the Smallest digits of the number.
-38. Write a java Program to print different of biggest and smallest digits.
-39. Write a java Program to check whether the product of sum of digits is even or odd.
-40. Write a Java Program to calculate the sum of each digit of the number.
-41. Write a java Program to calculate the sum of all digits of the number and check the sum of digits odd or even.
-42. Write a java Program to calculate factorial of each digit of the number.
-43. Write a java Program to calculate the sum of factorial of each digit of a number.
-44. Write a java Program to check whether the number is a Strong number or not.
-45. Write a java program to reverse digits or numbers.
-46. Write a java Program to find the difference between reverse and original digits/number if the number is different from original and reverse.
-47. Write a java Program to check if the reverse and original number is divisible or not, if Divisible then print.
-48. Write a java program to check the sum of reverse and original number/digits is even or odd if the number is odd then print all odd digits, but the number is even then print all the even digits.
-49. Write a java Program to check whether the number is palindrome or not.
-50. Write a java program to print factors of the number if the number is palindrome.
-51. Take user input and print whether the number is a perfect number or not.
-52. Take user input and print the factorial of the given number.
-53. Take user input and print the Sum of all factorials.
-54. Take user input and print a table with that user n number.
-55. Take user input and print a table from the user range and that number.
-#  2. String and Charter
+29. Write a java Program to check whether the number is palindrome or not.
+30. Write a java program to print factors of the number if the number is palindrome.
+31. Take user input and print whether the number is a perfect number or not.
+32. Take user input and print the factorial of the given number.
+33. Take user input and print a table with that user n number.
+34. Take user input and print a table from the user range and that number.
+35. Write a java Program to check and print number is Happy Number or not.
+36. Write a java Program to check and print number is Ugly Number or not.
+37. Write a java Program to check and print number is the Second Maximum Number.
+38. Write a java Program to check and print number is the Third Maximum Number.
+39. Write a java Program to check and print number is the Second last minimum Number.
+40. Write a java Program to check and print number is the third last minimum Number.
+# 2. Digits
+1. Write a java program to print each digit of number one by one.
+2. Write a java program to print all even digits.
+3. Write a java program to print all odd digits.
+4. Write a java program to print all digits
+5. Write a java Program to count number’s digits present in the number.
+6. Write a java Program to count even digits present in the given number.
+7. Write a java Program to count odd digits present in the given number.
+8. Write a java program to print the biggest digits of the number.
+9. Write a java program to print the Smallest digits of the number.
+10. Write a java Program to print different of biggest and smallest digits.
+11. Write a java Program to check whether the product of sum of digits is even or odd.
+12. Write a Java Program to calculate the sum of each digit of the number.
+13. Write a java Program to calculate the sum of all digits of the number and check the sum of digits odd or even.
+14. Write a java Program to calculate factorial of each digit of the number.
+15. Write a java Program to calculate the sum of factorial of each digit of a number.
+16. Write a java Program to check whether the number is a Strong number or not.
+17. Write a java program to reverse digits or numbers.
+18. Write a java Program to find the difference between reverse and original digits/number if the number is different from original and reverse.
+19. Write a java Program to check if the reverse and original number is divisible or not, if Divisible then print.
+20. Write a java program to check the sum of reverse and original number/digits is even or odd if the number is odd then print all odd digits, but the number is even then print all the even digits.
+21. Take user input and print the Sum, digits of all factorials. 
+22. Write a java program and print the Second-Largest Digit in a String
+#  3. String and Charter
 1. Take String input from the user and print character one by one From Starting.
 2. Take String input from the user and print character one by one From Ends.
 3. Take String input from the user and Get the Length of a String.
@@ -68,14 +76,14 @@
 8. Take String and print voles and total number of Voles counts
 9. Take String and print consonants and total number of Consonants counts.
 10. Take String random symbol Input from user and return all alphabets.
-# 3. Pattern
+# 4. Pattern
 1. Print the pattern different types' triangle.
 2. Print the pattern different types Square.
 3. Print the pattern different types Rectangle.
 4. Print the pattern different types of Stars.
 5. Print the pattern `Damru`
 6. Print the pattern alphabet A to Z.
-# 4. Recursion
+# 5. Recursion
 1. Write a java Program all the numbers from 1 to 100 using recursion.
 2. Write a java Program to generate numbers from 100 to 1 by using recursion.
 3. Write a java Program to generate tables using recursion.
@@ -102,7 +110,7 @@
 24. write a java program to print to generate n term of Fibonacci series by using recursion.
 25. write a java program to print to take three user inputs and print HCF of the three numbers.
 26. write a java program to print to take three user inputs and print LCM of the three numbers.
-# 5. Arrays
+# 6. Arrays
 1. Print all the elements in sequence array.
 2. Print all the elements in a reverse order array.
 3. Print all the even elements array.
@@ -215,11 +223,11 @@
 81. Design a method to print the smallest and second-smallest element of the array. `5,5,8,7,6,9,5`
 82. Write a java Program to move all zeroes of an array to the end. `7,0,2,6,0,4` and output `7,2,6,4,0,0`
 83. 
-#  6. Switch case:
+#  7. Switch case:
 1. write a java program and take user input to calculator to performed calculation.
 2. write a java program and take an input option from user and perform a user option. 
 
-#  7. Iterator (Collection Framework):
+#  8. Iterator (Collection Framework):
 1. write a java program to print even number only from a collection.
 2. write a java program to print odd number only from a collection
 3. write a java program to print Prime number only from a collection.
@@ -229,7 +237,7 @@
 7. write a java program to print number is a strong number from a collection.
 8. write a java program to print number is not a strong number from a collection.
 
-## 8. Iterator Loop:
+## 9. Iterator Loop:
 1. Write a java Program to print all the collection with the help of `For each Loop`.
 2. Design a method which will accept a collection and will remove all string type elements from the collection.
 3. Design a method which will accept a collection and will remove all elements from the collection are not String.

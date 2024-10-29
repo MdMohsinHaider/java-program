@@ -280,6 +280,7 @@
 1. Write a java program and implementing a Bubble sort Algorithm.
 2. Write a java program and implementing a Selection sort Algorithm.
 3. Write a java program and implementing an Insertion sort Algorithm.
+4. Write a java program and implementing a Merge sort Algorithm.
 
 ## 10.2 Searching Algorithm
 1. Write a java program and implementing a Linear (Sequential) Search Algorithm.

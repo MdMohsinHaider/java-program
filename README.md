@@ -1,6 +1,9 @@
 # Java-programing Questions
 ### java programming at J/Q/Spider Noida B-4, Block B, Sector 3, Noida, Uttar Pradesh 201301
 ### Trainer : `Shambhu Sir`
+
+
+
 # 1. Number
 1. Take input a random number from the user and check the number is Even or Odd number and Print.
 2. Take Input a Random Number from the user and print the last three-digit number.
@@ -42,6 +45,8 @@
 38. Write a java Program to check and print number is the Third Maximum Number.
 39. Write a java Program to check and print number is the Second last minimum Number.
 40. Write a java Program to check and print number is the third last minimum Number.
+
+
 # 2. Digits
 1. Write a java program to print each digit of number one by one.
 2. Write a java program to print all even digits.
@@ -64,7 +69,9 @@
 19. Write a java Program to check if the reverse and original number is divisible or not, if Divisible then print.
 20. Write a java program to check the sum of reverse and original number/digits is even or odd if the number is odd then print all odd digits, but the number is even then print all the even digits.
 21. Take user input and print the Sum, digits of all factorials. 
-22. Write a java program and print the Second-Largest Digit in a String
+22. Write a java program and print the Second-Largest Digit in a String.
+
+
 #  3. String and Charter
 1. Take String input from the user and print character one by one From Starting.
 2. Take String input from the user and print character one by one From Ends.
@@ -76,6 +83,10 @@
 8. Take String and print voles and total number of Voles counts
 9. Take String and print consonants and total number of Consonants counts.
 10. Take String random symbol Input from user and return all alphabets.
+
+
+
+
 # 4. Pattern
 1. Print the pattern different types' triangle.
 2. Print the pattern different types Square.
@@ -83,6 +94,10 @@
 4. Print the pattern different types of Stars.
 5. Print the pattern `Damru`
 6. Print the pattern alphabet A to Z.
+
+
+
+
 # 5. Recursion
 1. Write a java Program all the numbers from 1 to 100 using recursion.
 2. Write a java Program to generate numbers from 100 to 1 by using recursion.
@@ -110,6 +125,12 @@
 24. write a java program to print to generate n term of Fibonacci series by using recursion.
 25. write a java program to print to take three user inputs and print HCF of the three numbers.
 26. write a java program to print to take three user inputs and print LCM of the three numbers.
+
+
+
+
+
+
 # 6. Arrays
 1. Print all the elements in sequence array.
 2. Print all the elements in a reverse order array.
@@ -222,10 +243,14 @@
 80. Design a method to print the biggest and second-biggest element. `17,17,15,14,10,16,17` and `16, 16,15,14,17,16`
 81. Design a method to print the smallest and second-smallest element of the array. `5,5,8,7,6,9,5`
 82. Write a java Program to move all zeroes of an array to the end. `7,0,2,6,0,4` and output `7,2,6,4,0,0`
-83. 
+
+
 #  7. Switch case:
 1. write a java program and take user input to calculator to performed calculation.
 2. write a java program and take an input option from user and perform a user option. 
+
+
+
 
 #  8. Iterator (Collection Framework):
 1. write a java program to print even number only from a collection.

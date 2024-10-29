@@ -262,7 +262,7 @@
 7. write a java program to print number is a strong number from a collection.
 8. write a java program to print number is not a strong number from a collection.
 
-## 9. Iterator Loop:
+#  9. Iterator Loop:
 1. Write a java Program to print all the collection with the help of `For each Loop`.
 2. Design a method which will accept a collection and will remove all string type elements from the collection.
 3. Design a method which will accept a collection and will remove all elements from the collection are not String.
@@ -273,6 +273,17 @@
 8. Design a method which will print the sum of all integer numbers from a collection.
 9. Design a method which will print the sum of all the even integer numbers from the collection.
 10. Design a method which will print the biggest and Smallest integer number from a collection.
+
+
+# 10. DSA (Data Structures and Algorithms)
+## Sorting Algorithm
+1. Write a java program and implementing a Bubble sort Algorithm.
+2. Write a java program and implementing a Selection sort Algorithm.
+3. Write a java program and implementing an Insertion sort Algorithm.
+
+## Searching Algorithm
+1. Write a java program and implementing a Linear (Sequential) Search Algorithm.
+2. Write a java program and implementing a Binary Search Algorithm.
 
 
 

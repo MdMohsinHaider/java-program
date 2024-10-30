@@ -28,7 +28,7 @@ public class Program30 {
         if (isEligibleForFactorial(num)) { // Check if the number is a palindrome
             // Loop to print factors by iterating up to half the number
             for (int i = 1; i <= num / 2; i++) {
-                if (num % i == 0) { // Check if i is a factor of num
+                if (num % i == 0) { // Check if `i` a factor of num
                     System.out.print(i +" ");
                 }
             }
@@ -42,7 +42,7 @@ public class Program30 {
      * Determines eligibility for factor calculation by checking if the number is a palindrome.
      *
      * @param num The integer to check
-     * @return true if the number is a palindrome; otherwise, false
+     * @return true if the number is a palindrome, otherwise, false
      */
     private static boolean isEligibleForFactorial(int num) {
         return checkPalindrome(num); // Calls checkPalindrome to verify

@@ -15,7 +15,7 @@ import com.jspider.lib.HelpCode;
  * Output: Number is palindrome 121
  *
  * Input: 123
- * Output: Number is Not palindrome
+ * Output: Number is Not palindrome`
  * </pre>
  */
 public class Program29 {

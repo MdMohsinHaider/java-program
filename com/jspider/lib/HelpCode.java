@@ -9,6 +9,7 @@ public class HelpCode {
     public int inputInt(){
         count++;
         Scanner sc = new Scanner(System.in);
+        System.out.println("\n<======================================> "+count+" <=============================================>");
         System.out.print(count+". Enter a integer Number : ");
         return sc.nextInt();
     }
@@ -17,6 +18,7 @@ public class HelpCode {
     public double inputDouble(){
         count++;
         Scanner sc = new Scanner(System.in);
+        System.out.println("\n<======================================> "+count+" <=============================================>");
         System.out.print(count+". Enter a double Number : ");
         return sc.nextDouble();
     }
@@ -25,6 +27,7 @@ public class HelpCode {
     public char inputChar(){
         count++;
         Scanner sc = new Scanner(System.in);
+        System.out.println("\n<======================================> "+count+" <=============================================>");
         System.out.print(count+". Enter a Char  : ");
         return sc.next().charAt(0);
     }
@@ -33,6 +36,7 @@ public class HelpCode {
     public String inputString(){
         count++;
         Scanner sc = new Scanner(System.in);
+        System.out.println("\n<======================================> "+count+" <=============================================>");
         System.out.print(count+". Enter a String  : ");
         return sc.nextLine();
     }

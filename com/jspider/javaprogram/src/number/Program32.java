@@ -19,7 +19,7 @@ public class Program32 {
         long tem_factorial = 1;
 
         for (int i = 1; i <=num ; i++) {
-            tem_factorial = tem_factorial*i;
+            tem_factorial *= i;
             System.out.println(i+"! => "+tem_factorial);
         }
         return "The factorial of number "+num+"! is "+tem_factorial;

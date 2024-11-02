@@ -40,6 +40,43 @@ public class HelpCode {
         System.out.print(count+". Enter a String  : ");
         return sc.nextLine();
     }
+
+    // 5. user long input
+    public long inputLong(){
+        count++;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("\n<======================================> "+count+" <=============================================>");
+        System.out.print(count+". Enter a double Number : ");
+        return sc.nextLong();
+    }
+
+    // 6. user Float input
+    public float inputFloat(){
+        count++;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("\n<======================================> "+count+" <=============================================>");
+        System.out.print(count+". Enter a double Number : ");
+        return sc.nextFloat();
+    }
+
+    // 7. user Short input
+    public short inputShort(){
+        count++;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("\n<======================================> "+count+" <=============================================>");
+        System.out.print(count+". Enter a double Number : ");
+        return sc.nextShort();
+    }
+
+    // 8. user double input
+    public byte inputByte(){
+        count++;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("\n<======================================> "+count+" <=============================================>");
+        System.out.print(count+". Enter a double Number : ");
+        return sc.nextByte();
+    }
+
 //==============================================Calculation=================================================================
 
     // Check Number is Even then return true

@@ -5,6 +5,7 @@ import com.jspider.lib.HelpCode;
 /**
  * Program30 calculates and prints the factors of a given number if the number is a palindrome.
  */
+
 public class Program30 {
 
     /**
@@ -38,6 +39,7 @@ public class Program30 {
         }
     }
 
+
     /**
      * Determines eligibility for factor calculation by checking if the number is a palindrome.
      *
@@ -48,6 +50,7 @@ public class Program30 {
         return checkPalindrome(num); // Calls checkPalindrome to verify
     }
 
+
     /**
      * Checks if a given number is a palindrome.
      *
@@ -57,6 +60,7 @@ public class Program30 {
     private static boolean checkPalindrome(int num) {
         return reverseNumber(num) == num; // Compares the number with its reversed value
     }
+
 
     /**
      * Reverses the digits of the specified integer and returns the reversed number.

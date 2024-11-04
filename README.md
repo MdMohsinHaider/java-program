@@ -45,6 +45,7 @@
 38. Write a java Program to check and print number is the Third Maximum Number.
 39. Write a java Program to check and print number is the Second last minimum Number.
 40. Write a java Program to check and print number is the third last minimum Number.
+41. Write a java Program to check and print number is Armstrong Number or not.
 
 
 # 2. Digits

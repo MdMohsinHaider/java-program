@@ -52,7 +52,7 @@
 1. Write a java program to print each digit of number one by one.
 2. Write a java program to print all even digits.
 3. Write a java program to print all odd digits.
-4. Write a java program to print all digits
+4. Write a java program to print all digits and also handle zero if the number has the first digit is 0.
 5. Write a java Program to count number’s digits present in the number.
 6. Write a java Program to count even digits present in the given number.
 7. Write a java Program to count odd digits present in the given number.
@@ -65,7 +65,7 @@
 14. Write a java Program to calculate factorial of each digit of the number.
 15. Write a java Program to calculate the sum of factorial of each digit of a number.
 16. Write a java Program to check whether the number is a Strong number or not.
-17. Write a java program to reverse digits or numbers.
+17. Write a java program to reverse digits.
 18. Write a java Program to find the difference between reverse and original digits/number if the number is different from original and reverse.
 19. Write a java Program to check if the reverse and original number is divisible or not, if Divisible then print.
 20. Write a java program to check the sum of reverse and original number/digits is even or odd if the number is odd then print all odd digits, but the number is even then print all the even digits.

@@ -284,8 +284,10 @@
 # Queue(I) :-
 1. Short of all the elements of the array.
 2. Short of all the elements of the list.
-3. Print biggest and second biggest from array and list
-4. Print smallest and second smallest from array and list
+3. Print biggest and second biggest from an array.
+4. Print smallest and second smallest from an array.
+5. Print biggest and second biggest from a list.
+6. Print smallest and second smallest from a list.
 
 
 # 10. DSA (Data Structures and Algorithms)

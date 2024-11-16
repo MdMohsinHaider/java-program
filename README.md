@@ -275,6 +275,18 @@
 9. Design a method which will print the sum of all the even integer numbers from the collection.
 10. Design a method which will print the biggest and Smallest integer number from a collection.
 
+# Set(I)
+1. From a given array or Arraylist remove all the duplicate elements and print it.
+2. From a given array or Arraylist remove all the duplicate elements and return array.
+3. From a given array or Arraylist remove all the duplicate elements and return array and change the original array.
+4. Print the frequency of each element from an array as well as list.
+
+# Queue(I) :-
+1. Short of all the elements of the array.
+2. Short of all the elements of the list.
+3. Print biggest and second biggest from array and list
+4. Print smallest and second smallest from array and list
+
 
 # 10. DSA (Data Structures and Algorithms)
 ## 10.1 Sorting Algorithm

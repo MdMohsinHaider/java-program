@@ -7,8 +7,9 @@ package com.jspider.javaprogram.src.queue;
 * */
 
 
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class Program3 {
     public static void main(String[] args) {
@@ -17,10 +18,28 @@ public class Program3 {
     }
 
     private static void printBiggestSecondBiggestArrayElement(int[] array){
-        Queue<Integer> q1 = new PriorityQueue<>();
+        Set<Integer> s1 = new TreeSet<>();
         for (int p:array){
-            q1.offer(p);
+            s1.add(p);
         }
-        System.out.println(q1.size());
+        System.out.println(s1);
+
+        int count = 0;
+        Iterator<Integer> itr = s1.iterator();
+        int big = 0;
+        int second_big = 0;
+        while (itr.hasNext()){
+            count++;
+            int temp = itr.next();
+            if (count == 1){
+                second_big = temp;
+                big =temp;
+            }else {
+                second_big = big;
+                big= temp;
+            }
+        }
+        System.out.println(second_big);
+        System.out.println(big);
     }
 }

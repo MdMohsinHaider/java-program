@@ -7,9 +7,7 @@ package com.jspider.javaprogram.src.queue;
 * */
 
 
-import java.util.Iterator;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class Program3 {
     public static void main(String[] args) {
@@ -33,7 +31,7 @@ public class Program3 {
             int temp = itr.next();
             if (count == 1){
                 second_big = temp;
-                big =temp;
+            //  big =temp;
             }else {
                 second_big = big;
                 big= temp;

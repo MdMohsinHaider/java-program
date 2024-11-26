@@ -78,7 +78,7 @@
 2. Take String input from the user and print character one by one From Ends.
 3. Take String input from the user and Get the Length of a String.
 4. Take Two String input from the user and join Two Java Strings to each other.
-5. Take two String user input and Compare Two Strings Character and find and print both duplicate or unique characters From two Strings.
+5. Take two String user input and Compare to Strings Character and find and print both duplicate or unique characters.
 6. Take input String From User and convert all the characters to lowercase.
 7. Take user input String and print the String if String is palindrome.
 8. Take String and print voles and total number of Voles counts

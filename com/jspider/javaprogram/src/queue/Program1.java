@@ -1,5 +1,7 @@
 package com.jspider.javaprogram.src.queue;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -11,6 +13,7 @@ public class Program1 {
         }
         System.out.println("\n");
         shortArrayElements(array);
+        Map<Integer,String> map = new HashMap<>();
     }
 
     private static void shortArrayElements(int[] array){

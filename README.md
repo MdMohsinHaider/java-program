@@ -88,6 +88,7 @@
 12. for a Given String Count the total number of Words in the String.
 13. Write a java Program to take String And reverse By using String Method.
 14. Write a java program, for the given String is palindrome or not.
+15. `leetcode` Q. 20
 
 
 

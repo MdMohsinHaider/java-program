@@ -73,7 +73,7 @@
 22. Write a java program and print the Second-Largest Digit in a String.
 
 
-#  3. String and Charter
+#  3. String and Charter (Part I)
 1. Take String input from the user and print character one by one From Starting.
 2. Take String input from the user and print character one by one From Ends.
 3. Take String input from the user and Get the Length of a String.
@@ -84,16 +84,125 @@
 8. Take String and print voles and total number of Voles counts
 9. Take String and print consonants and total number of Consonants counts.
 10. Take String random symbol Input from user and return all alphabets.
-11. For a given String contain numeric character count the number of Numeric Charters find a sum these numeric charter.
-12. for a Given String Count the total number of Words in the String.
+11. *** For a given String contain numeric character count the number of Numeric Charters find a sum these numeric charter.
+12. *** for a Given String Count the total number of Words in the String.
 13. Write a java Program to take String And reverse By using String Method.
 14. Write a java program, for the given String is palindrome or not.
-15. `leetcode` Q. 20
+
+# 4. String-based Programming (Part II)
+1. Write a Java Program to take a String input to get length of String without using length method.
+2. Write a Java Program to take a String input and count all numeric characters in the String.
+3. Write a java Program to take a String input and count all the characters without spaces in the String.
+4. Write a Java Program to take a String input and count all the characters (excluding any special characters).
+5. Write a Java Program to take a String input and count all the space characters, uppercase, lowercase, numeric, special characters in the String.
+6. Write a Java Program to take a String input and count all the vowel characters in the String.
+7. Write a Java Program to take a String input and print all the indexes where numeric characters are present in the String.
+8. Write a Java Program to take a String input and print all the indexes where space characters are present in the String.
+9. Write a Java Program to take a String input and replace all the space characters from _ in the String.
+   `a)By using replace() method
+   b)Without using replace() method`
+10. Write a Java Program to take a String input and print the sum of all the numeric characters in the String.
+11. Write a Java Program to take a String input and print sum of all the even numeric characters in the String.
+12. Write a Java Program to take a String input and reverse the String.
+13. Write a Java Program to take a String input and check whether the String is a Palindrome String or not(without reversing).
+14. Write a Java Program to take a String input and remove all the duplicate characters and store in another String.
+15. Write a Java Program to take a String input and count the total number of words in the String (Without using split method).
+16. Write a Java Program to find a string is `ANAGRAM` or not? [`Leetcode`](https://leetcode.com/problems/valid-anagram/description/)
+17. Write a Java Program to find weather a string is `PANAGRAM` or not? [`Leetcode`](https://leetcode.com/problems/check-if-the-sentence-is-pangram/description/)
+18. Second-largest Number in String: [`Leetcode`](https://leetcode.com/problems/second-largest-digit-in-a-string/description/)
+19. Write a Java Program for the below requirements:
+    `i/p: mohan and sohan are here.
+    o/p: here are sohan and mohan`
+20. Write a Java Program for the below requirements:
+    `i/p: mohan and sohan are here.
+    o/p: nahom dna nahos era ereh.`
+21. Write a Java Program, take a String input and print and count all the words that have even numbed of characters.
+22. Write a Java Program, take a String input and print the largest word in the String.
+23. Write a Java Program, take a String input and print the index and value of first non-repeating character.[`Leetcode`](https://leetcode.com/problems/first-unique-character-in-a-string/description/)
+24. Write a Java Program to convert the first character of each word of a String into upper case.
+25. Write a Java Program to take a String input and convert all the lowercase characters to uppercase.
+26. Write a Java Program to check if a string contains only digits.
+27. Write a Java Program to print the frequency of each character in the String.
+28. [`Leetcode`](https://leetcode.com/problems/sort-characters-by-frequency/description/)
+29. [`Leetcode`](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/description/)
+30. Write a Java Program to print all the characters which appeared only once in the String.
+31. Write a Java Program to print the character which is appeared only once in the String. Given that, only one character has appeared once in the string.
+32. Write a Java Program to print all the characters which appeared more than once in the String.
+33. Write a Java Program to print the character which is appeared for the maximum times in the String.
+34. Write a Java Program to print the character which is appeared for the maximum times in the String.
+    If more than one character has appeared for maximum time, return the smallest character.
+35. Write a Java Program to print the character which is appeared for the maximum times in the String.
+    If more than one character has appeared for maximum time, return the biggest character.
+36. given a string of Size N containing digits from 1 to N where any one digit is missing, Print the missing digit.
+37. Write a Java Program to print the frequency of each word in a string.
+38. Write a Java Program to print the first character of each word in the String.
+39. Write a Java Program to print and count all the words which has appeared only once in the String.
+    `Input: mohan is coming and sohan is coming
+    Output:
+    mohan
+    coming
+    and
+    sohan
+    Total words: 4`
+40. Write a Java Program to print and count all the duplicate words in the String.
+    `Input: mohan is coming and sohan is coming and 
+    Output:-  
+    is
+    coming
+    Total words:  2`
+41. Write a Java Program to print the word which has appeared for maximum times in the String.
+    `Input: mohan is coming and sohan is coming is good
+    Output:
+    is`
+42. Write a Java Program to count the occurrence of a particular word in the String.
+    `Input: mohan is coming and sohan is coming
+    “is”
+    `Output:`
+    The word “is”  has appeared 2 times`
+43. Write a Java Program to remove duplicate words from the String.
+    `Input: mohan is coming and sohan is coming`
+    `Output:	mohan is coming and sohan`
+44. Write a Java Program to perform sorting for a group of Strings.
+45. Write a Java Program to convert the first character of each sentence in a string to upper case.
+46. Write a Java Program to convert the first character of each sentence to upper case and all the other characters of string into lower case.
+47. Write a Java Program to exchange a given input with target input( fg with cd).
+    `Input: abcdefgh`
+    `Output: abfgecdh`
+48. What is the purpose of String[] args in the main method.
+49. Write a Java Program to convert any four-digit NUMBER into WORDS.
+50. Write a Java Program to print the first character of each word.
+51. [`Leetcode`](https://leetcode.com/problems/valid-palindrome/description/)
+52. [`Leetcode`](https://leetcode.com/problems/find-the-closest-palindrome/description/)
+53. Write a Java Program to Find All the Permutations of a String.
+       `Input: abc`
+               `Output:`
+               `abc`
+               `acb`
+               `bac`
+               `bca`
+               `cab`
+               `cba`
+54. 
 
 
 
 
-# 4. Pattern
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 5. Pattern
 1. Print the pattern different types' triangle.
 2. Print the pattern different types Square.
 3. Print the pattern different types Rectangle.
@@ -104,7 +213,7 @@
 
 
 
-# 5. Recursion
+# 6. Recursion
 1. Write a java Program all the numbers from 1 to 100 using recursion.
 2. Write a java Program to generate numbers from 100 to 1 by using recursion.
 3. Write a java Program to generate tables using recursion.
@@ -137,7 +246,7 @@
 
 
 
-# 6. Arrays
+# 7. Arrays
 1. Print all the elements in sequence array.
 2. Print all the elements in a reverse order array.
 3. Print all the even elements array.
@@ -251,14 +360,14 @@
 82. Write a java Program to move all zeroes of an array to the end. `7,0,2,6,0,4` and output `7,2,6,4,0,0`
 
 
-#  7. Switch case:
+#  8. Switch case:
 1. write a java program and take user input to calculator to performed calculation.
 2. write a java program and take an input option from user and perform a user option. 
 
 
+# COLLECTION FRAMEWORK <------------------------------------------------------>
 
-
-#  8. Iterator (Collection Framework):
+#  9. Iterator (Collection Framework):
 1. write a java program to print even number only from a collection.
 2. write a java program to print odd number only from a collection
 3. write a java program to print Prime number only from a collection.
@@ -268,7 +377,7 @@
 7. write a java program to print number is a strong number from a collection.
 8. write a java program to print number is not a strong number from a collection.
 
-#  9. Iterator Loop:
+#  10. Iterator Loop:
 1. Write a java Program to print all the collection with the help of `For each Loop`.
 2. Design a method which will accept a collection and will remove all string type elements from the collection.
 3. Design a method which will accept a collection and will remove all elements from the collection are not String.

@@ -1,4 +1,4 @@
-package com.jspider.javaprogram.src.string;
+package com.jspider.javaprogram.src.string.part1;
 
 import java.util.Scanner;
 

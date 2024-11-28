@@ -294,8 +294,8 @@
 43. write a java program to print to rotate all the elements of array k position to its left.
     `array[] = {1, 2, 3, 4, 5, 6, 7},k = 2
      Output: {3 4 5 6 7 1 2}`
-44. https://leetcode.com/problems/rotate-array/description/
-45. https://leetcode.com/problems/move-zeroes/description/
+44. [`Leetcode`](https://leetcode.com/problems/rotate-array/description/)
+45. [`Leetcode`](https://leetcode.com/problems/move-zeroes/description/)
 46. write a java program to print to move all zeroes of an array to the end.
     `i/p: [7, 0, 2, 6, 0, 4]
      o/p: [7, 2, 6, 4, 0, 0]`
@@ -306,7 +306,7 @@
     `i/p: 	[0, 2, 0, 1, 2, 1, 0, 2]
      o/p: 	[0, 0, 0, 1, 1, 2, 2, 2]`
 
-49. https://leetcode.com/problems/sort-colors/description/
+49. [`Leetcode`](https://leetcode.com/problems/sort-colors/description/)
 50. write a java program to print the frequency of each element of the array if all given elements are in range from 0 to 1000.
 51. write a java program to print the frequency of each element of the array when elements provided are in any range.
 52. write a java program to print each element of the array which has appeared only once in the array.
@@ -337,12 +337,12 @@
     `i/p: [2, 3, 7, 8, 9]
      o/p: Array is strictly increasing`
 69. write a java program to print to check whether a given array is in sorted order or not.
-70. https://www.hackerrank.com/challenges/migratory-birds/problem
+70. [`Leetcode`](https://www.hackerrank.com/challenges/migratory-birds/problem)
 71. implement binary search algorithm.
-72. https://leetcode.com/problems/first-missing-positive/description/
-73. https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
-74. https://leetcode.com/problems/count-primes/description/
-75. https://leetcode.com/problems/third-maximum-number/description/
+72. [`Leetcode`](https://leetcode.com/problems/first-missing-positive/description/)
+73. [`Leetcode`](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
+74. [`Leetcode`](https://leetcode.com/problems/count-primes/description/)
+75. [`Leetcode`](https://leetcode.com/problems/third-maximum-number/description/)
 76. Design a method to rotate one time to the right side.
     `int[]a = {1 ,3 ,5 ,7 ,9, 2, 4, 6, 8, 0}
      int[]a = {0, 1, 3, 5 ,7, 9, 2, 4, 6, 8}`

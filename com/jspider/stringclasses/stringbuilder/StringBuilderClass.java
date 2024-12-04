@@ -2,7 +2,7 @@ package com.jspider.stringclasses.stringbuilder;
 
     /*
     * Introduced in java version 1.5
-    * String builder is a class which used to crete mutable objects.
+    * String builder is a class which used to crete mutable String objects.
     * It is a non-Synchronized object.
     *
     * StringBuilder s1 = new StringBuilder("Mohan");
@@ -10,6 +10,15 @@ package com.jspider.stringclasses.stringbuilder;
     * StringBuilder s3 = new StringBuilder("Jack");
     * StringBuilder s4 = new StringBuilder("s2");
     * StringBuilder s5 = new StringBuilder(s3);
+    *
+    * What is difference between String, StringBuilder and StringBuffer?
+    *
+    * It provides immutable String
+    * It is not Synchronized,
+    * It provides Fast Performance
+    * It is not thread Safe
+    *
+    *
     *
     * */
 

@@ -1,5 +1,17 @@
 package com.jspider.stringclasses.string_;
 
+
+    /*
+    * What is the difference between String, StringBuilder and StringBuffer?
+    *
+    * it provides mutable String
+    * it is sense java 1.0
+    * It is not Synchronises
+    * It provides Fast Performance
+    * It is not thread Safe
+    *
+    *
+    * */
 public class StringClass {
     public static void main(String[] args) {
 //        String s1 = "Mohan";

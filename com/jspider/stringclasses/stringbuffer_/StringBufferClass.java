@@ -1,4 +1,4 @@
-package com.jspider.stringclasses.stringbuffer;
+package com.jspider.stringclasses.stringbuffer_;
 
     /*
     * Introduced in java 1.0.

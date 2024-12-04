@@ -1,4 +1,4 @@
-package com.jspider.stringclasses.stringbuilder;
+package com.jspider.stringclasses.stringbuilder_;
 
     /*
     * Introduced in java version 1.5

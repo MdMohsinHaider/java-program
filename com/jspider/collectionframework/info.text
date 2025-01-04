@@ -1,0 +1,25 @@
+Iterable:
+1. This interface represent a collections of objects that can be iterated over.
+2. It has a Single method,
+    iterator() →→ this method return an Iterator object.
+→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→
+Iterator:
+1. This interface provides methods to traverse the elements of a collection.
+2. It has methods like
+    hasNext() →→ to check if there are more elements, and
+    next() →→ to retrieve the next element.
+→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→
+So, to summarize:
+    * Iterable: is the parent interface.
+    * Iterator: is child interface returned by the
+        iterator() methods of the Iterable interface.
+→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→
+What are the four types of functional interface?
+1.  Consumer:
+        # It accepts single input argument and returns no result.
+2.  Predicate:
+        # It accepts single argument and return a boolean result.
+3.  Function:
+        # It accepts a single argument and returns a result.
+4.  Supplier:
+        # It does not take any arguments but provides a result.

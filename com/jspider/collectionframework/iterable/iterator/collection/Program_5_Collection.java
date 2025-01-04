@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 
-public class ProgramCollection4 {
+public class Program_5_Collection {
     public static void main(String[] args) {
         Collection<Integer> c1 = new ArrayList<>();
         c1.add(23);

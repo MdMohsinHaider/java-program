@@ -2,7 +2,7 @@ package com.jspider.collectionframework.iterable;
 
 import java.util.Iterator;
 
-public class ProgramIterable1 implements Iterable {
+public class Iterable_Interface_AllMethod implements Iterable {
     @Override
     public Iterator iterator() {
         return null;

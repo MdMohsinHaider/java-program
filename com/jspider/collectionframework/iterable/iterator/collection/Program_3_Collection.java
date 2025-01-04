@@ -3,7 +3,7 @@ package com.jspider.collectionframework.iterable.iterator.collection;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class ProgramCollection2 {
+public class Program_3_Collection {
     public static void main(String[] args) {
         Collection c1 = new ArrayList();
         c1.add(23);

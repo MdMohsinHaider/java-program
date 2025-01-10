@@ -1,24 +1,25 @@
 package com.jspider.javaprogram.src.number;
 
 import com.jspider.lib.HelpCode;
-/*
-*   Take user input and generate many terms in the fibonacci series.
-*
-*
-*   The Program28 class provides functionality to display the Fibonacci sequence
-*   up to a specified number of terms. The sequence is calculated iteratively
-*   and displayed on the console.
-*
-*   <p>This program uses the {@link HelpCode} class to take user input for the
-*   number of terms in the sequence. The Fibonacci sequence starts with 0 and 1,
-*   and each later term is the sum of the two preceding ones.
-*
-*   <p>Example:
-*   <pre>
-*   Input: 5
-*   Output: 0 1 1 2 3
-*   </pre>
-* */
+
+/**
+ * Take user input and generate many terms in the fibonacci series.
+ *
+ *
+ *    The Program28 class provides functionality to display the Fibonacci sequence
+ *    up to a specified number of terms. The sequence is calculated iteratively
+ *    and displayed on the console.
+ *
+ *    <p>This program uses the {@link HelpCode} class to take user input for the
+ *    number of terms in the sequence. The Fibonacci sequence starts with 0 and 1,
+ *    and each later term is the sum of the two preceding ones.
+ *
+ *    <p>Example:
+ *    <pre>
+ *    Input: 5
+ *    Output: 0 1 1 2 3
+ *    <pre/>
+ */
 
 public class Program28 {
 

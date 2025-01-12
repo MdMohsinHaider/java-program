@@ -1,6 +1,5 @@
 package com.jspider.collectionframework.iterable.iterator.collection;
 
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 
@@ -68,23 +67,5 @@ public class Collection_Interface_AllMethod implements Collection {
     @Override
     public Object[] toArray(Object[] a) {
         return new Object[0];
-    }
-
-    // Main Method
-    public static void main(String[] args) {
-        Collection<String> fruitCollection = new ArrayList<>();
-        fruitCollection.add("Banana");
-        fruitCollection.add("apple");
-        fruitCollection.add("Mango");
-        System.out.println(fruitCollection);
-
-        fruitCollection.remove("Banana");
-        System.out.println(fruitCollection);
-
-        System.out.println(fruitCollection.contains("Banana"));
-
-        fruitCollection.forEach(System.out::println);
-
-        System.out.println(fruitCollection.size());
     }
 }

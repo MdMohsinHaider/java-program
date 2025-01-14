@@ -26,7 +26,7 @@ import java.util.*;
  */
 
 
-public class ArrayList_Class1 {
+public class _ArrayList {
 
     /**
      * <h3>Example 0<h3/>
@@ -371,10 +371,10 @@ public class ArrayList_Class1 {
 
 
     /**
-     *<h1>Example 13<h1/>
+     *<h1>Example 13</h1>
      * @since java 8
-     * <code>stream + lambda expression<code/>
-     * <div>sort non-primitive data type using lambda expression<div/>
+     * <code>stream + lambda expression</code>
+     * <div>sort non-primitive data type using lambda expression</div>
      */
     private void example13(){
         List<Employee> employeeList = new ArrayList<>();
@@ -405,7 +405,7 @@ public class ArrayList_Class1 {
      */
     public static void main(String[] args) {
 
-        ArrayList_Class1 ac = new ArrayList_Class1();
+        _ArrayList ac = new _ArrayList();
 //        ac.Example0();
 //        ac.Example1();
 //        ac.Example2();

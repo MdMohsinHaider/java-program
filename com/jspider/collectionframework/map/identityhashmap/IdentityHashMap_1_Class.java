@@ -1,4 +1,4 @@
 package com.jspider.collectionframework.map.identityhashmap;
 
-public class ProgramIdentityHashMap1 {
+public class IdentityHashMap_1_Class {
 }

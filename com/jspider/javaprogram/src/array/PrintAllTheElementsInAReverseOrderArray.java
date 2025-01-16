@@ -1,6 +1,7 @@
 package com.jspider.javaprogram.src.array;
 
-public class PrintAllTheElementsInSequenceArray {
+public class PrintAllTheElementsInAReverseOrderArray {
+
     public static void main(String[] args) {
         int[] array = {
                 677, 706, 476, 194, 255, 318, 266, 793, 753, 822, 345, 940, 907, 61, 324, 502,
@@ -8,12 +9,12 @@ public class PrintAllTheElementsInSequenceArray {
                 123, 456, 789, 101, 202, 303, 404, 505, 753, 502, 268, 816, 822, 911
         };
 
-        printAllTheElementsInSequenceArray(array);
+        printAllTheElementsInAReverseOrderArray(array);
     }
 
-    private static void printAllTheElementsInSequenceArray(int[] array) {
-        for (int j : array) {
-            System.out.print(j + " ");
+    private static void printAllTheElementsInAReverseOrderArray(int[] array) {
+        for (int i = array.length-1; i >=0 ; i--) {
+            System.out.print(array[i]+" ");
         }
     }
 }

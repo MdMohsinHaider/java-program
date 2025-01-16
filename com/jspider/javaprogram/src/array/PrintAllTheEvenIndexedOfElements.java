@@ -1,6 +1,6 @@
 package com.jspider.javaprogram.src.array;
 
-public class PrintAllTheElementsInSequenceArray {
+public class PrintAllTheEvenIndexedOfElements {
     public static void main(String[] args) {
         int[] array = {
                 677, 706, 476, 194, 255, 318, 266, 793, 753, 822, 345, 940, 907, 61, 324, 502,
@@ -8,12 +8,12 @@ public class PrintAllTheElementsInSequenceArray {
                 123, 456, 789, 101, 202, 303, 404, 505, 753, 502, 268, 816, 822, 911
         };
 
-        printAllTheElementsInSequenceArray(array);
+        printAllTheEvenIndexedOfElements(array);
     }
 
-    private static void printAllTheElementsInSequenceArray(int[] array) {
-        for (int j : array) {
-            System.out.print(j + " ");
+    private static void printAllTheEvenIndexedOfElements(int[] array) {
+        for (int i = 0; i < array.length; i+=2) {
+            System.out.print(array[i]+" ");
         }
     }
 }

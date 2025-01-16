@@ -7,7 +7,7 @@ package com.jspider.javaprogram.DSA.SortingAlgo;
  * through the list is repeated until the list is sorted.
  *
  * <p>This program demonstrates Bubble Sort on a sample array and prints the sorted elements.
- *
+ * <p> time : O(n^2)
  * <p>Example:
  * <pre>
  * Input: {30, 40, 70, 50, 90, 100}

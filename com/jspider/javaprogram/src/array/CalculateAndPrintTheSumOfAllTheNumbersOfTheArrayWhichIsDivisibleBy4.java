@@ -10,6 +10,7 @@ public class CalculateAndPrintTheSumOfAllTheNumbersOfTheArrayWhichIsDivisibleBy4
         calculateAndPrintTheSumOfAllTheNumbersOfTheArrayWhichIsDivisibleBy4(array);
     }
 
+
     /**
      * <p> Question 6.
      * @param array Integer type array pass on argument.

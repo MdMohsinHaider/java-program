@@ -1,14 +1,19 @@
 package com.jspider.multithreading.how_to_create_thread.implementing_runnable_interface;
 
-public class Test {
+import java.io.Serializable;
+
+public class Test implements Serializable {
     public static void main(String[] args) {
 
         World world = new World();
-        Thread thread0 = new Thread(world);
-        thread0.start();
+        Thread t0 = new Thread(world);
+        t0.start();
 
-        Thread thread1 = new Thread(new World());
-        thread1.start();
+        Thread t1 = new Thread(new World());
+        t1.start();
+
+        Thread t3 = new Thread(new World());
+        t3.start();
 
 
         for ( ; ; ) {

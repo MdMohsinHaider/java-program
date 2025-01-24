@@ -4,7 +4,7 @@ package com.jspider.javainterviewquestionsdays100;
  * <h1> if you have a double type a value, and you convert into integer Type value.
  * is it an Automatic or ForceFul Process?
  * <p>Solution :
- * <code> Casting means if you have a value of one type, and we convert it
+ * <li> Casting means if you have a value of one type, and we convert it
  * to a value of another type, this is called type casting in Java. There are two ways of
  * type casting in Java. First is type casting. Implicit type casting means it happens
  * automatically. If you have a small value, and you want to convert it to a value of a larger

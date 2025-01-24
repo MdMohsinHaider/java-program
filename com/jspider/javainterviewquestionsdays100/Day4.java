@@ -2,7 +2,8 @@ package com.jspider.javainterviewquestionsdays100;
 
 /**
  * <h1>Most important thing in java, if not there, the Program will be not Run.
- * <p> Solution : <code>If you want to write a program in Java,
+ * <p> Solution :
+ * <li>If you want to write a program in Java,
  * then you have to simply create a class like we have created here.
  * To create a class, you have to write public, write class and then
  * write the name of your class. This should be a proper identifier.

@@ -4,7 +4,7 @@ package com.jspider.javainterviewquestionsdays100;
  *<h1> You have a value 3.5. What happens when you assign a double value to a
  * float variable without explicit casting, and how does truncation affect the value stored?
  * <p>Solution :
- * <code> Let's understand the first concept you have to understand is that
+ * <li> Let's understand the first concept you have to understand is that
  * by default in Java, any normal point value is treated as a double. That means if you
  * have any point value, it will be treated as double, and you can put it inside a double
  * type variable. If you want to make a float value, then you have literals, you can use f for the float.

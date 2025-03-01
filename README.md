@@ -84,8 +84,8 @@
 8. Take String and print voles and total number of Voles counts
 9. Take String and print consonants and total number of Consonants counts.
 10. Take String random symbol Input from user and return all alphabets.
-11. *** For a given String contain numeric character count the number of Numeric Charters find a sum these numeric charter.
-12. *** for a Given String Count the total number of Words in the String.
+11. For a given String contain numeric character count the number of Numeric Charters find a sum these numeric charter.
+12. For a Given String Count the total number of Words in the String.
 13. Write a java Program to take String And reverse By using String Method.
 14. Write a java program, for the given String is palindrome or not.
 
@@ -247,40 +247,40 @@
 
 
 # 7. Arrays
-1. Print all the elements in sequence array.
-2. Print all the elements in a reverse order array.
-3. Print all the even elements array.
-4. Print all the even indexed of elements
-5. Calculate a print sum of all elements of array
-6. Calculate and print the sum of all the numbers of the array which is divisible by 4.
-7. Calculate and print the biggest element of an array
-8. Design a method which will return the biggest and smallest difference.
-9. Design a method which will return true if it contains only even numbers
-10. Design a method which will return if the product of array is even
-11. Design a method that accepts string arrays will print the size of every string element.
-12. Design a method which will accept a string array and will print and count all the even length string elements.
-13. Design a method which will accept a string array and will return the string with the biggest size
-14. Design a method to check if an array is strictly increasing or not and will return.
-15. Design a method to remove an element from a particular position of an array.
-16. Design a method which will insert and at array at any given position.
-17. For a given array which contains positive number (0 < = arr[i] < = 100). print the frequency of each array element.
-18. print events only one in the array.
-19. Print all the elements that have appeared more than ones.
-20. Print All the elements exactly once
-21. print elements appeared evens types in an array.
-22. Print all the array elements which appear odd numbers of times.
-23. Print the elements that have appeared for the maximum times in an array.
-24. Print the index and its elements, which are non-repeating elements.
-25. write a java program to print the even index elements of the array.
-26. write a java program to print the even elements of the array.
-27. write a java program to print to count all the even numbers of the array.
-28. write a java program to print and count all the three-digit numbers of the array.
-29. write a java program to print sum and average of all the elements of array.
-30. write a java program to print the Biggest element, Smallest element and their difference in the array.
-31. For the given array of Strings, print and count all the Strings which has even numbed of characters.
-32. For the given array of Strings, print the largest string and the smallest string.
-33. write a java program to print each element of the array in reverse order.
-34. write a java program to print an alternate element of the array from end.
+1. 🟢 Print all the elements in sequence array.
+2. 🟢 Print all the elements in a reverse order array.
+3. 🟢 Print all the even elements array.
+4. 🟢 Print all the even indexed of elements
+5. 🟢 Calculate a print sum of all elements of array
+6. 🟢 Calculate and print the sum of all the numbers of the array which is divisible by 4.
+7. 🟢 Calculate and print the biggest element of an array
+8. 🟠 Design a method which will return the biggest and smallest difference.
+9. 🟢 Design a method which will return true if it contains only even numbers
+10. 🟢 Design a method which will return if the product of array is even
+11. 🟢 Design a method that accepts string arrays will print the size of every string element.
+12. 🟢 Design a method which will accept a string array and will print and count all the even length string elements.
+13. 🟢 Design a method which will accept a string array and will return the string with the biggest size
+14. 🟢 Design a method to check if an array is strictly increasing or not and will return.
+15. 🟠 Design a method to remove an element from a particular position of an array.
+16. 🟠 Design a method which will insert and at array at any given position.
+17. 🔴 For a given array which contains positive number (0 < = arr[i] < = 100). print the frequency of each array element.
+18. 🔴 print events only one in the array.
+19. 🔴 Print all the elements that have appeared more than ones.
+20. 🔴 Print All the elements exactly once
+21. 🔴 print elements appeared evens types in an array.
+22. 🔴 Print all the array elements which appear odd numbers of times.
+23. 🔴 Print the elements that have appeared for the maximum times in an array.
+24. 🔴 Print the index and its elements, which are non-repeating elements.
+25. 🟢 write a java program to print the even index elements of the array.
+26. 🟢 write a java program to print the even elements of the array.
+27. 🟢 write a java program to print to count all the even numbers of the array.
+28. 🟠 write a java program to print and count all the three-digit numbers of the array.
+29. 🟢 write a java program to print sum and average of all the elements of array.
+30. 🟠 write a java program to print the Biggest element, Smallest element and their difference in the array.
+31. 🟠 For the given array of Strings, print and count all the Strings which has even numbed of characters.
+32. 🟢 For the given array of Strings, print the largest string and the smallest string.
+33. 🟢 write a java program to print each element of the array in reverse order.
+34. 🟠 write a java program to print an alternate element of the array from end.
 35. write a java program to print to swap two index values of the array.
 36. write a java program to print to insert an element at certain position of the array.
 37. write a java program to print to remove an element from the certain position of the array.

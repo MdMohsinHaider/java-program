@@ -1,7 +1,9 @@
 package com.jspider.stringclasses.string_;
 
 
-    /**
+import java.util.regex.Pattern;
+
+/**
     * What is the difference between String, StringBuilder and StringBuffer?
     *
     * it provides mutable String
@@ -25,7 +27,18 @@ public class StringClass {
 //            charAtMethod();
 //            codePointAtMethod();
 //            equalsMethod();
-            equalsIgnoreCaseMethod();
+//            equalsIgnoreCaseMethod();
+//            toCharArrayMethod();
+//            valueOfMethod();
+//            compareToMethod();
+//            compareToIgnoreCaseMethod();
+//            startsWithMethod();
+//            endsWithMethod();
+//            replaceMethod();
+//            indexOfMethod();
+//            lastIndexOfMethod();
+//            substringMethod();
+            replaceCharSequenceMethod();
         }
 
         /**
@@ -166,6 +179,192 @@ public class StringClass {
             String s2 = "mohsin";
             System.out.println(s1.equalsIgnoreCase(s2)); // true
         }
+
+        /**
+         * Converts this string to a new character array.
+         */
+        private static void toCharArrayMethod(){
+            String s1 = "Hello Mr Mohsin  haider";
+            System.out.println(s1);
+            char[] s2 = s1.toCharArray();
+            for (char c : s2) {
+                System.out.print(c+"  ");
+            }
+        }
+
+        /**
+         * Returns the string representation of the
+         * argument.
+         */
+        private static void valueOfMethod(){
+            int a = 10;
+            boolean b = true;
+            char c = 'm';
+            double d = 10.9;
+            System.out.println(a+20); // 30
+            // a convert into String
+            String s1 = String.valueOf(a);
+            System.out.println(s1+20); // 1020
+
+            String s2 = String.valueOf(b);
+            System.out.println(s2+12); // true12
+
+            String s3 = String.valueOf(c);
+            System.out.println(s3+22); // m22
+
+            String s4 = String.valueOf(d);
+            System.out.println(s4+47); // 10.947
+
+        }
+
+        /**
+         * Compares two strings
+         * lexicographically and returns integer value.
+         */
+        private static void compareToMethod(){
+            String s1 = "Mohsin";
+            String s2 = "Haider";
+            int a = s1.compareTo(s2);
+            System.out.println(a);
+        }
+
+        /**
+         * Compares two strings
+         * lexicographically ignoring case and returns integer value.
+         */
+        private static void compareToIgnoreCaseMethod(){
+            String s1 = "Mohsin";
+            String s2 = "mohsin";
+            int a = s1.compareToIgnoreCase(s2);
+            System.out.println(a);
+        }
+
+        /**
+         * Tests if this string starts with the
+         * specified prefix or not.
+         */
+        private static void startsWithMethod(){
+            String s1 = "mdmohsinhaider6@gmail.com";
+            boolean b1 =  s1.startsWith("mohsin"); // false
+            System.out.println(b1);
+            boolean b2 = s1.startsWith("md"); // true
+            System.out.println(b2);
+
+            // start with String and its index will be match.
+            boolean b3 = s1.startsWith("mdmo",0); // true
+            System.out.println(b3);
+            boolean b4 = s1.startsWith("mdmoh",1); // false
+            System.out.println(b4);
+        }
+
+        private static void endsWithMethod(){
+            String s1 = "mdmohsinhaider6@gmail.com";
+            boolean b1 = s1.endsWith(".com"); // true
+            System.out.println(b1);
+
+            boolean b2 = s1.endsWith("gmail.");
+            System.out.println(b2);
+        }
+
+        /**
+         * replace(char oldChar, char newChar): Returns a string
+         * resulting from replacing all occurrences of oldChar in this string with
+         * newChar.
+         */
+        private static void replaceMethod(){
+            String s1 = "Noida";
+            String s2 = s1.replace('i','m');
+            System.out.println(s2);
+
+            String s3 = s1.replace("id","ma");
+            System.out.println(s3);
+
+            String regex = "id";
+            Pattern pattern = Pattern.compile(regex);
+            String s4 = s1.replaceAll(regex,"@gmail");
+            System.out.println(s4);
+        }
+
+        /**
+         * Returns the index within this string of the first
+         * occurrence of the specified character.
+         */
+        private static void indexOfMethod(){
+            String s1 = "mohsinhaider67@gmail.com";
+
+            System.out.println(s1.indexOf('h')); // 2: Index of given Charter
+            System.out.println(s1.indexOf("haider")); // 6:  Index start String
+
+            System.out.println(s1.indexOf('h',3)); // 6
+            System.out.println(s1.indexOf("@gmail",2));
+
+            System.out.println(s1.indexOf('h',3,9));
+            System.out.println(s1.indexOf("haider",2,8));
+        }
+
+        /**
+         * Returns the index within this string of the last
+         * occurrence of the specified character.
+         */
+        private static void lastIndexOfMethod(){
+                String s1 = "mdmohsinhaider678@gmail.com";
+
+                System.out.println(s1.lastIndexOf('m'));
+                System.out.println(s1.lastIndexOf("mohsin"));
+                System.out.println(s1.lastIndexOf('m',18));
+            }
+
+        /**
+         * Returns a string that is a substring of
+         * this string. The substring begins with the character at the specified index
+         * and extends to the end of this string.
+         */
+        private static void substringMethod(){
+                String s1 = "mdmohsinhaider787@gmail.com";
+
+                System.out.println(s1.substring(13));
+
+                String s2 = s1.substring(13,18); // return data type String
+                System.out.println(s2);
+
+                CharSequence s3 = s1.subSequence(2,8); // return data type CharSequence
+                System.out.println(s3);
+        }
+
+    /**
+     * Replaces each substring of this string that matches
+     * the literal target sequence with the specified literal replacement
+     * sequence.
+     */
+    private static void replaceCharSequenceMethod(){
+            String s1 = "mdmohsinhaider23456@gmail.com";
+            String s2 =  s1.replace('m','M');
+        System.out.println(s2);
+
+        String s3 = s1.replace("mohsin","devil");
+        System.out.println(s3);
+    }
+
+    /**
+     * Returns a string whose value is this string, with all
+     * leading white space removed.
+     */
+    private static void stripLeadingMethod(){
+        // code
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

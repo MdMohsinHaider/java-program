@@ -1,6 +1,7 @@
 package com.jspider.stringclasses.string_;
 
 
+import java.util.Arrays;
 import java.util.regex.Pattern;
 
 /**
@@ -38,7 +39,14 @@ public class StringClass {
 //            indexOfMethod();
 //            lastIndexOfMethod();
 //            substringMethod();
-            replaceCharSequenceMethod();
+//            replaceCharSequenceMethod();
+//            stripLeadingMethod();
+//            getBytesMethod();
+//            containsMethod();
+//            indentMethod();
+//            repeatMethod();
+//            splitMethod();
+            joinMethod();
         }
 
         /**
@@ -350,28 +358,82 @@ public class StringClass {
      * leading white space removed.
      */
     private static void stripLeadingMethod(){
-        // code
+        String s = new String(" \u2000 Hello \t \u2000 ");
+        System.out.println(s.length());
+        System.out.println(s+" length: "+s.length());
+
+        String s1 = s.trim();
+        System.out.println(s1+" length: "+s1.length());
+
+        String s2 = s.strip();
+        System.out.println(s2+" length: "+s2.length());
+
+        // 33.stripLeading():
+        String s3 = s.stripLeading();
+        System.out.println(s3+" length: "+s3.length());
+
+        // 34.stripTrailing():
+        String s4 = s.stripTrailing();
+        System.out.println(s4+" length: "+s4.length());
     }
 
+    /**
+     * It return byte[] for every characters of String
+     */
+    private static void getBytesMethod(){
+        String s = "Mohsin Haider";
+        byte[] b =s.getBytes();
+        System.out.println(Arrays.toString(b));
+    }
 
+    /**
+     * Returns true if and only if this string
+     * contains the specified sequence of char values.
+     */
+    private static void containsMethod(){
+        String s = "My name is md mohsin haider";
+        System.out.println(s.contains("name"));
+    }
 
+    /**
+     * Adjusts the indentation of each line of this string based
+     * on the value of n, and normalizes line termination characters.
+     */
+    private static void indentMethod(){
+        String s = "I \nam \nMohsin \nhaider";
+        System.out.println(s);
+        System.out.println("------------After-----------");
+        System.out.println(s.indent(4));
+    }
 
+    /**
+     * Returns a string whose value is the concatenation of
+     * this string repeated count times.
+     */
+    private static void repeatMethod(){
+        String s = "Mohsin";
+        System.out.println(s.repeat(7));
+    }
 
+    /**
+     * Splits this string around matches of the given
+     * regular expression.
+     */
+    private static void splitMethod(){
+        String s = " I am Mohsin haider ";
+        String[] s1 =  s.split("\\s");
+        System.out.println(Arrays.toString(s1));
+        for (String string : s1) {
+            System.out.println(string);
+        }
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    /**
+     * Returns a new String composed of copies of the CharSequence elements
+     * joined together with a copy ofthe specified delimiter.
+     */
+    private static void joinMethod(){
+        String message = String.join("-","Md","Mohsin","Haider");
+        System.out.println(message);
+    }
 }

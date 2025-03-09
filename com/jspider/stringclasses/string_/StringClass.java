@@ -38,7 +38,7 @@ public class StringClass {
 //            replaceMethod();
 //            indexOfMethod();
 //            lastIndexOfMethod();
-//            substringMethod();
+            substringMethod();
 //            replaceCharSequenceMethod();
 //            stripLeadingMethod();
 //            getBytesMethod();
@@ -46,7 +46,7 @@ public class StringClass {
 //            indentMethod();
 //            repeatMethod();
 //            splitMethod();
-            joinMethod();
+//            joinMethod();
         }
 
         /**

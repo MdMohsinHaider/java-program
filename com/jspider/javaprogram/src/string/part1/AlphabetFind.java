@@ -2,7 +2,7 @@ package com.jspider.javaprogram.src.string.part1;
 
 public class AlphabetFind {
     public static void main(String[] args) {
-        String s = " u&Abvfg ^ $1hJ2 L133";
+        String s = " u&Abaft ^ $1hJ2 L133";
         String result = findAlphabets(s);
         System.out.println(result);
 
@@ -16,7 +16,6 @@ public class AlphabetFind {
                 s1 = s1+c;
             }
         }
-        System.out.println(s1);
         return s1;
     }
 }

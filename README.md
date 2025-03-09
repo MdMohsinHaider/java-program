@@ -84,7 +84,7 @@
 8. 🟢 Take String and print voles and total number of Voles counts
 9. 🟢 Take String and print consonants and total number of Consonants counts.
 10. 🟢 Take String random symbol Input from user and return all alphabets.
-11. 🟢 For a given String contain numeric character count the number of Numeric Charters find a sum these numeric charter.
+11. 🟠 For a given String contain numeric character count the number of Numeric Charters find a sum these numeric charter.
 12. 🔴 For a Given String Count the total number of Words in the String.
 13. 🟠 Write a java Program to take String And reverse By using String User Method and return.
 14. 🟠 Write a java program, for the given String is palindrome or not.

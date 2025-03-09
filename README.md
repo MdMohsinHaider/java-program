@@ -74,20 +74,20 @@
 
 
 #  3. String and Charter (Part I)
-1. Take String input from the user and print character one by one From Starting.
-2. Take String input from the user and print character one by one From Ends.
-3. Take String input from the user and Get the Length of a String.
-4. Take Two String input from the user and join Two Java Strings to each other.
-5. Take two String user input and Compare to Strings Character and find and print both duplicate or unique characters.
-6. Take input String From User and convert all the characters to lowercase.
-7. Take user input String and print the String if String is palindrome.
-8. Take String and print voles and total number of Voles counts
-9. Take String and print consonants and total number of Consonants counts.
-10. Take String random symbol Input from user and return all alphabets.
-11. For a given String contain numeric character count the number of Numeric Charters find a sum these numeric charter.
-12. For a Given String Count the total number of Words in the String.
-13. Write a java Program to take String And reverse By using String Method.
-14. Write a java program, for the given String is palindrome or not.
+1. 🟢 Take String input from the user and print character one by one From Starting.
+2. 🟢 Take String input from the user and print character one by one From Ends.
+3. 🟢 Take String input from the user and Get the Length of a String.
+4. 🟢 Take Two String input from the user and join Two Java Strings to each other.
+5. 🔴 Write  a java Program, take input two string from user and compare both string and find Unique and duplicate Character String.
+6. 🟢 Take input String From User and convert all the characters to lowercase.
+7. 🟢 Take user input String and print the String if String is palindrome.
+8. 🟢 Take String and print voles and total number of Voles counts
+9. 🟢 Take String and print consonants and total number of Consonants counts.
+10. 🟢 Take String random symbol Input from user and return all alphabets.
+11. 🟢 For a given String contain numeric character count the number of Numeric Charters find a sum these numeric charter.
+12. 🔴 For a Given String Count the total number of Words in the String.
+13. 🟠 Write a java Program to take String And reverse By using String User Method and return.
+14. 🟠 Write a java program, for the given String is palindrome or not.
 
 # 4. String-based Programming (Part II)
 1. Write a Java Program to take a String input to get length of String without using length method.

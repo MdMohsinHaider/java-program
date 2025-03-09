@@ -13,6 +13,11 @@ public class JoinTwoStringInput {
         System.out.println("Enter Second String");
         String s2 = scanner.nextLine();
 
+        String result = joinTwoString(s1,s2);
+        System.out.println(result);
     }
 
+    private static String joinTwoString(String s1, String s2){
+        return s1+s2;
+    }
 }

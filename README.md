@@ -105,10 +105,10 @@
 11. Write a Java Program to take a String input and print sum of all the even numeric characters in the String.
 12. Write a Java Program to take a String input and reverse the String.
 13. Write a Java Program to take a String input and check whether the String is a Palindrome String or not (without revers method).
-14. Write a Java Program to take a String input and remove all the duplicate characters and store in another String.
-15. Write a Java Program to take a String input and count the total number of words in the String (Without using split method).
-16. Write a Java Program to find a string is `ANAGRAM` or not? [`Leetcode`](https://leetcode.com/problems/valid-anagram/description/)
-17. Write a Java Program to find weather a string is `PANAGRAM` or not? [`Leetcode`](https://leetcode.com/problems/check-if-the-sentence-is-pangram/description/)
+14. 🔴 Write a Java Program to take a String input and remove all the duplicate characters and store in another String.
+15. 🔴 Write a Java Program to take a String input and count the total number of words in the String (Without using split method).
+16. 🔴 Write a Java Program to find a string is `ANAGRAM` or not? [`Leetcode`](https://leetcode.com/problems/valid-anagram/description/)
+17. 🔴 Write a Java Program to find weather a string is `PANAGRAM` or not? [`Leetcode`](https://leetcode.com/problems/check-if-the-sentence-is-pangram/description/)
 18. Second-largest Number in String: [`Leetcode`](https://leetcode.com/problems/second-largest-digit-in-a-string/description/)
 19. Write a Java Program for the below requirements:
     `i/p: mohan and sohan are here.

@@ -15,8 +15,9 @@ public class Palindrome {
         String revString = "";
         for (int i = string.length()-1; i >=0 ; i--) {
             char c = string.charAt(i);
-            revString+=c;
+            revString += c;
         }
+
         System.out.println("rev String: "+revString);
         return revString;
     }

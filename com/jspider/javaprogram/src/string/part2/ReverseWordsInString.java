@@ -1,5 +1,7 @@
 package com.jspider.javaprogram.src.string.part2;
 
+import java.util.Arrays;
+
 /**
  * Write a Java Program for the below requirements:
  * i/p: mohan and sohan are here.
@@ -16,6 +18,7 @@ public class ReverseWordsInString {
 
         // Split input into words
         String[] words = string.split(" ");
+        System.out.println("Words array "+Arrays.toString(words));
 
         // Reverse the words using String concatenation
         String output = "";

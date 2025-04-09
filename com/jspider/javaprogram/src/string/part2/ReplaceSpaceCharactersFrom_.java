@@ -31,7 +31,7 @@ public class ReplaceSpaceCharactersFrom_ {
         for (int i = 0; i <string.length() ; i++) {
             char c = string.charAt(i);
             if (c == ' '){
-                s=s+"_";
+                s = s+"_";
             }
             else
                 s=s+c;

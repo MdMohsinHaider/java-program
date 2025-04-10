@@ -1,6 +1,5 @@
 package com.jspider.javaprogram.src.array;
 
-import java.sql.Array;
 import java.util.Arrays;
 
 public class HalfAscAdnDec {

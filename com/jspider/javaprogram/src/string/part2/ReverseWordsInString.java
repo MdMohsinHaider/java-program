@@ -18,7 +18,7 @@ public class ReverseWordsInString {
 
         // Split input into words
         String[] words = string.split(" ");
-        System.out.println("Words array "+Arrays.toString(words));
+//        System.out.println("Words array "+Arrays.toString(words));
 
         // Reverse the words using String concatenation
         String output = "";
@@ -30,7 +30,7 @@ public class ReverseWordsInString {
         }
 
         // Print final result
-        System.out.println("Output: " + output);
+//        System.out.println("Output: " + output);
         return output;
     }
 }

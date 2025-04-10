@@ -195,6 +195,7 @@
 4. Print the pattern different types of Stars.
 5. Print the pattern `Damru`
 6. Print the pattern alphabet A to Z.
+7. Print the pattern swastika
 
 
 

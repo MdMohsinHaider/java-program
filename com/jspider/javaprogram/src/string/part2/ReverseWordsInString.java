@@ -1,6 +1,5 @@
 package com.jspider.javaprogram.src.string.part2;
 
-import java.util.Arrays;
 
 /**
  * Write a Java Program for the below requirements:
@@ -18,19 +17,16 @@ public class ReverseWordsInString {
 
         // Split input into words
         String[] words = string.split(" ");
-//        System.out.println("Words array "+Arrays.toString(words));
 
         // Reverse the words using String concatenation
         String output = "";
+
         for (int i = words.length - 1; i >= 0; i--) {
             output += words[i];
             if (i != 0) {
                 output += " ";
             }
         }
-
-        // Print final result
-//        System.out.println("Output: " + output);
         return output;
     }
 }

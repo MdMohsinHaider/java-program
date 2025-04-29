@@ -13,9 +13,10 @@ public class RotateElementsArrayLeftByNTimes {
             for (j = 0; j <array.length-1 ; j++) {
                 array[j] = array[j+1];
             }
-            array[j] = firstElement;
+            array[j] = firstElement; // j is last index
         }
 
         System.out.println(Arrays.toString(array));
     }
 }
+  

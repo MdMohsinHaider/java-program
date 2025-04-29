@@ -115,14 +115,14 @@
     o/p: here are sohan and mohan`
 20. Write a Java Program for the below requirements:
     `i/p: mohan and sohan are here.
-    o/p: nahom dna nahos era ereh.`
-21. Write a Java Program, take a String input and print and count all the words that have even numbed of characters.
-22. Write a Java Program, take a String input and print the largest word in the String.
-23. Write a Java Program, take a String input and print the index and value of first non-repeating character.[`Leetcode`](https://leetcode.com/problems/first-unique-character-in-a-string/description/)
-24. Write a Java Program to convert the first character of each word of a String into upper case.
-25. Write a Java Program to take a String input and convert all the lowercase characters to uppercase.
-26. Write a Java Program to check if a string contains only digits.
-27. Write a Java Program to print the frequency of each character in the String.
+     o/p: nahom dna nahos era ereh.`
+21. 🟠 Write a Java Program, take a String input and print and count all the words that have even numbed of characters.
+22. 🟠 Write a Java Program, take a String input and print the largest word in the String.
+23. 🔴 Write a Java Program, take a String input and print the index and value of first non-repeating character.[`Leetcode`](https://leetcode.com/problems/first-unique-character-in-a-string/description/)
+24. 🟠 Write a Java Program to convert the first character of each word of a String into upper case.
+25. 🟠 Write a Java Program to take a String input and convert all the lowercase characters to uppercase.
+26. 🟢 Write a Java Program to check if a string contains only digits.
+27. 🔴 Write a Java Program to print the frequency of each character in the String.
 28. [`Leetcode`](https://leetcode.com/problems/sort-characters-by-frequency/description/)
 29. [`Leetcode`](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/description/)
 30. Write a Java Program to print all the characters which appeared only once in the String.
@@ -133,7 +133,7 @@
     If more than one character has appeared for maximum time, return the smallest character.
 35. Write a Java Program to print the character which is appeared for the maximum times in the String.
     If more than one character has appeared for maximum time, return the biggest character.
-36. given a string of Size N containing digits from 1 to N where any one digit is missing, Print the missing digit.
+36. Given a string of Size N containing digits from 1 to N where any one digit is missing, Print the missing digit.
 37. Write a Java Program to print the frequency of each word in a string.
 38. Write a Java Program to print the first character of each word in the String.
 39. Write a Java Program to print and count all the words which has appeared only once in the String.

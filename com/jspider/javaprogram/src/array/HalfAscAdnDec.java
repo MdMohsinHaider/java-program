@@ -17,7 +17,7 @@ public class HalfAscAdnDec {
         // first part
         for (int i = 0; i <= mid-1 ; i++) {
             for (int j = i+1 ; j <=mid-1 ; j++) {
-                if (array[i]>array[j]){
+                if (array[i] > array[j]){
                     int temp =array[i];
                     array[i] =array[j];
                     array[j] = temp;
@@ -28,7 +28,7 @@ public class HalfAscAdnDec {
         // second part
         for ( int i = mid; i < array.length ; i++) {
             for (int j = i+1; j <array.length ; j++) {
-                if (array[i]<array[j]){
+                if (array[i] < array[j]){
                     int temp =array[i];
                     array[i] =array[j];
                     array[j] = temp;

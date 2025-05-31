@@ -76,5 +76,18 @@ public class Car {
                 System.out.println(model + " engine already stopped");
             }
         }
+
+        @Override
+        public String toString() {
+            return "Engin{}";
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "model='" + model + '\'' +
+                ", isEnginOn=" + isEnginOn +
+                '}';
     }
 }

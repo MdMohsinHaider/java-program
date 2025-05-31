@@ -12,7 +12,8 @@ public class One {
         System.out.println("One Class Method");
     }
 
-    public static void getOneStaticMethod(){
+    public static void getStaticMethod(){
         System.out.println("One Class static Method");
     }
+
 }

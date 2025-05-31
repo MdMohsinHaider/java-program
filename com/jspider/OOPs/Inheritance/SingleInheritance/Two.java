@@ -13,7 +13,7 @@ public class Two extends One {
         System.out.println("Two Class Method");
     }
 
-    public static void getTwoStaticMethod(){
+    public static void getStaticMethod(){
         System.out.println("Two Class static Method");
     }
 }

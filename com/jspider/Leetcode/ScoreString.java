@@ -1,5 +1,7 @@
 package com.jspider.Leetcode;
 
+import org.jetbrains.annotations.NotNull;
+
 /**
  * Project: LeetCode Solutions
  * Problem: 3110. Score of a String
@@ -13,6 +15,7 @@ public class ScoreString {
         ScoreString scoreString = new ScoreString();
         int score = scoreString.scoreOfString("Hello");
         System.out.println("score = " + score);
+        System.out.println("GetScore = "+scoreString.getScore("Hello"));
     }
 
     /**
@@ -33,6 +36,19 @@ public class ScoreString {
         int score = 0;
         for (int i = 1; i < s.length(); i++) {
             score += Math.abs(s.charAt(i) - s.charAt(i - 1));
+        }
+        return score;
+    }
+
+    // custom method
+    public int getScore(@NotNull String s){
+        int score = 0;
+        for (int i = 1; i <s.length() ; i++) {
+            int num = s.charAt(i-1)-s.charAt(i);
+            if (num<0){
+                num = Math.abs(num);
+            }
+            score = score+num;
         }
         return score;
     }

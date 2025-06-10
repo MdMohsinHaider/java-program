@@ -11,6 +11,7 @@ public class BinarySearch {
         int startIndex = 0;
         int endIndex = array.length-1;
         int mid = startIndex +((endIndex -startIndex)/2);
+
         while (startIndex <= endIndex){
             if (array[mid] == key)
                 return mid;
@@ -18,6 +19,7 @@ public class BinarySearch {
             // going right part
             if (key > array[mid])
                 startIndex = mid+1;
+
             // going to lift side Part
             else endIndex = mid-1;
 

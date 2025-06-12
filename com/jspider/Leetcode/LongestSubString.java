@@ -8,24 +8,27 @@ public class LongestSubString {
     }
 
     public static String getSubString(String string){
-        String temp = "";
+        String temp1 = "";
+        String temp2 = "";
+        String outPut = "";
+
         int largestTemp = 0;
+
         for (int i = 0; i <string.length() ; i++) {
             char c = string.charAt(i);
 
-            if (isPresent(temp,c)){
-                if (temp.length() > largestTemp){
-
-                }
+            if (isPresent(temp1, c)){
+                continue;
+            } else if (isPresent(temp2,c)){
+                continue;
+            }
+            else {
+                //
             }
 
-            // Remove duplicate
-            if (!(isPresent(temp,c))){
-                temp+=c;
-            }
         }
 
-        string = temp;
+        string = outPut;
         return string;
     }
 

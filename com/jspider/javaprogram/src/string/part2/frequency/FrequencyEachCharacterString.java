@@ -6,7 +6,7 @@ public class FrequencyEachCharacterString {
         System.out.println();
         int[] result = getFrequencyEachCharacter(string);
         for (int j : result) {
-            if (j > 0) {
+            if (j >= 0) {
                 System.out.print(j + " ");
             }
         }
@@ -16,6 +16,14 @@ public class FrequencyEachCharacterString {
         int[] array = new int[127];
         for (int i = 0; i <string.length() ; i++) {
             array[string.charAt(i)] = array[string.charAt(i)]+1;
+        }
+        return array;
+    }
+
+    private static int[] getFrequency(String string){
+        int[] array = new int[127];
+        for (int s = 0; s < string.length(); s++) {
+            array[string.charAt(s)] = array[string.charAt(s)]+1;
         }
         return array;
     }

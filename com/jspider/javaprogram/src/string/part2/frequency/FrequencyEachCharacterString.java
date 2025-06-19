@@ -20,11 +20,4 @@ public class FrequencyEachCharacterString {
         return array;
     }
 
-    private static int[] getFrequency(String string){
-        int[] array = new int[127];
-        for (int s = 0; s < string.length(); s++) {
-            array[string.charAt(s)] = array[string.charAt(s)]+1;
-        }
-        return array;
-    }
 }

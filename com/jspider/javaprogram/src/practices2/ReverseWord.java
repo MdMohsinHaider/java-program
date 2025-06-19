@@ -11,7 +11,8 @@ public class ReverseWord {
         String revTempWord = "";
         String[] words = string.split(" ");
         for (String word:words){
-            revTempWord  += reveresWord(word) + " ";
+//            revTempWord  += reveresWord(word) + " ";
+            revTempWord = revTempWord + reveresWord(word)+" ";
         }
         string = revTempWord;
         return string.trim();
@@ -20,9 +21,11 @@ public class ReverseWord {
     private static String reveresWord(String string){
         String temp = "";
         for (int i = 0; i <string.length() ; i++) {
-           temp = string.charAt(i) + temp;
+            char c = string.charAt(i);
+           temp = c + temp;
         }
         string = temp;
         return string;
     }
+
 }

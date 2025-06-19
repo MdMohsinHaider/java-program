@@ -1,4 +1,4 @@
-package com.jspider.javaprogram.src.pattern;
+package com.jspider.javaprogram.src.pattern.Hollow;
 
 public class HollowSquare {
     public static void main(String[] args) {

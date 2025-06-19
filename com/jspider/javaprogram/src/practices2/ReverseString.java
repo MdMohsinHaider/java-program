@@ -1,6 +1,5 @@
 package com.jspider.javaprogram.src.practices2;
 
-import org.jetbrains.annotations.NotNull;
 
 public class ReverseString {
     public static void main(String[] args) {
@@ -8,7 +7,7 @@ public class ReverseString {
         System.out.println(getStringReverse(string));
     }
 
-    private static @NotNull String getStringReverse(@NotNull String string){
+    private static String getStringReverse(String string){
         String reveresString = "";
         for (int i = 0; i <string.length() ; i++) {
             char c = string.charAt(i);
@@ -17,4 +16,5 @@ public class ReverseString {
         string = reveresString;
         return string;
     }
+
 }

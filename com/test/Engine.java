@@ -1,4 +1,8 @@
 package com.test;
 
-public class Engine {
+public interface Engine {
+    public int start();
 }
+
+
+
